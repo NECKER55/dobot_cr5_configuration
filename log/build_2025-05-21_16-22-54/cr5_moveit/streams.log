@@ -1,0 +1,43 @@
+[0.107s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit -- -j12 -l12
+[0.541s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit -- -j12 -l12
+[0.543s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit
+[0.563s] -- Install configuration: ""
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/ament_index/resource_index/package_run_dependencies/cr5_moveit
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/ament_index/resource_index/parent_prefix_path/cr5_moveit
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/environment/ament_prefix_path.sh
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/environment/ament_prefix_path.dsv
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/environment/path.sh
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/environment/path.dsv
+[0.563s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/local_setup.bash
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/local_setup.sh
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/local_setup.zsh
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/local_setup.dsv
+[0.564s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.dsv
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/ament_index/resource_index/packages/cr5_moveit
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/cmake/cr5_moveitConfig.cmake
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/cmake/cr5_moveitConfig-version.cmake
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.xml
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/move_group.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/moveit_gazebo.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/full_bringup.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/setup_assistant.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/demo.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/moveit_rviz.launch.py
+[0.564s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/spawn_controllers.launch.py
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/warehouse_db.launch.py
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/launch/rsp.launch.py
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/ros2_controllers.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/cr5_robot.srdf
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/joint_limits.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/initial_positions.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/kinematics.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/moveit_controllers.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/cr5_robot.urdf.xacro
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/cr5_robot.ros2_control.xacro
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/pilz_cartesian_limits.yaml
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/config/moveit.rviz
+[0.565s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/.setup_assistant
+[0.660s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit

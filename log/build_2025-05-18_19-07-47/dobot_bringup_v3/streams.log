@@ -1,0 +1,58 @@
+[0.433s] Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo PYTHONPATH=/home/andrea/dobot_v3/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/andrea/dobot_v3/build/dobot_bringup_v3/build install --record /home/andrea/dobot_v3/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data
+[0.611s] running egg_info
+[0.611s] creating ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info
+[0.611s] writing ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/entry_points.txt
+[0.612s] writing requirements to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/requires.txt
+[0.612s] writing top-level names to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/top_level.txt
+[0.612s] writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.613s] reading manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.613s] writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.614s] running build
+[0.614s] running build_py
+[0.614s] creating /home/andrea/dobot_v3/build/dobot_bringup_v3/build
+[0.614s] creating /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib
+[0.614s] creating /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/dobot_bringup.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/zed_listener.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/joint_states_bridge.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/translater.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/dobot_api.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.614s] copying dobot_bringup_v3/feedback.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.615s] copying dobot_bringup_v3/__init__.py -> /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.615s] running install
+[0.615s] running install_lib
+[0.615s] creating /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_bringup.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/zed_listener.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/joint_states_bridge.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/translater.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_api.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.615s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/feedback.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.616s] copying /home/andrea/dobot_v3/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/__init__.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.616s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_bringup.py to dobot_bringup.cpython-310.pyc
+[0.618s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/zed_listener.py to zed_listener.cpython-310.pyc
+[0.618s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/joint_states_bridge.py to joint_states_bridge.cpython-310.pyc
+[0.618s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/translater.py to translater.cpython-310.pyc
+[0.619s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_api.py to dobot_api.cpython-310.pyc
+[0.620s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/feedback.py to feedback.cpython-310.pyc
+[0.621s] byte-compiling /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/__init__.py to __init__.cpython-310.pyc
+[0.621s] running install_data
+[0.621s] creating /home/andrea/dobot_v3/install/dobot_bringup_v3/share/ament_index
+[0.621s] creating /home/andrea/dobot_v3/install/dobot_bringup_v3/share/ament_index/resource_index
+[0.622s] creating /home/andrea/dobot_v3/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+[0.622s] copying resource/dobot_bringup_v3 -> /home/andrea/dobot_v3/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+[0.622s] copying package.xml -> /home/andrea/dobot_v3/install/dobot_bringup_v3/share/dobot_bringup_v3
+[0.622s] creating /home/andrea/dobot_v3/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+[0.622s] copying launch/dobot_bringup_ros2.launch.py -> /home/andrea/dobot_v3/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+[0.622s] running install_egg_info
+[0.623s] Copying ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3-0.0.0-py3.10.egg-info
+[0.623s] running install_scripts
+[0.638s] Installing dobot_bringup script to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.638s] Installing feedback script to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.638s] Installing joint_states_bridge script to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.638s] Installing listener_node script to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.639s] Installing translater_node script to /home/andrea/dobot_v3/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.639s] writing list of installed files to '/home/andrea/dobot_v3/build/dobot_bringup_v3/install.log'
+[0.658s] Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo PYTHONPATH=/home/andrea/dobot_v3/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/andrea/dobot_v3/build/dobot_bringup_v3/build install --record /home/andrea/dobot_v3/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data

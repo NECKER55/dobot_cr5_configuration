@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[0.094s] [ 33%] Built target fake_zed_node
+[0.097s] [ 66%] Built target reworked_map_node
+[0.103s] [ 83%] [32mBuilding CXX object CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o[0m
+[3.439s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.440s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:327[m[K:
+[3.441s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In member function ‘[01m[Kbool MoveCR5Node::attemptToReachPoint(const Object&, ScanPoint&, std::vector<ScanPoint>&)[m[K’:
+[3.441s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:714:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[KtoString[m[K’
+[3.441s]   714 |                             execution_result.[01;31m[KtoString[m[K().c_str());
+[3.441s]       |                                              [01;31m[K^~~~~~~~[m[K
+[3.441s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:722:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[KtoString[m[K’
+[3.441s]   722 |                         planning_result.[01;31m[KtoString[m[K().c_str());
+[3.441s]       |                                         [01;31m[K^~~~~~~~[m[K
+[6.505s] gmake[2]: *** [CMakeFiles/move_cr5_node.dir/build.make:76: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o] Error 1
+[6.505s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/move_cr5_node.dir/all] Error 2
+[6.506s] gmake: *** [Makefile:146: all] Error 2
+[6.508s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '2': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12

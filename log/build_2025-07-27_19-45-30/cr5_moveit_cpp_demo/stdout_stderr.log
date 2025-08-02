@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[ 66%] Built target reworked_map_node
+[ 66%] Built target fake_zed_node
+[ 83%] [32mBuilding CXX object CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o[0m
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid mapCallback(custom_messages::msg::Map_<std::allocator<void> >::SharedPtr, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:415:24:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid addObstaclesToScene()[m[K’
+  415 |     [01;31m[KaddObstaclesToScene(move_group,planning_scene_interface)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:380:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  380 | void [01;36m[KaddObstaclesToScene[m[K();
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_cr5_node.dir/build.make:76: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/move_cr5_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

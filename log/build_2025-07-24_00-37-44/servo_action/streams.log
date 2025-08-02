@@ -1,0 +1,25 @@
+[1.927s] Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action': PYTHONPATH=/home/andrea/dobot_v3/build/servo_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/servo_action build --build-base /home/andrea/dobot_v3/build/servo_action/build install --record /home/andrea/dobot_v3/build/servo_action/install.log --single-version-externally-managed install_data
+[2.122s] running egg_info
+[2.123s] writing ../../../build/servo_action/servo_action.egg-info/PKG-INFO
+[2.123s] writing dependency_links to ../../../build/servo_action/servo_action.egg-info/dependency_links.txt
+[2.123s] writing entry points to ../../../build/servo_action/servo_action.egg-info/entry_points.txt
+[2.123s] writing requirements to ../../../build/servo_action/servo_action.egg-info/requires.txt
+[2.123s] writing top-level names to ../../../build/servo_action/servo_action.egg-info/top_level.txt
+[2.125s] reading manifest file '../../../build/servo_action/servo_action.egg-info/SOURCES.txt'
+[2.126s] writing manifest file '../../../build/servo_action/servo_action.egg-info/SOURCES.txt'
+[2.126s] running build
+[2.126s] running build_py
+[2.126s] running install
+[2.126s] running install_lib
+[2.127s] running install_data
+[2.128s] running install_egg_info
+[2.129s] removing '/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages/servo_action-0.0.0-py3.10.egg-info' (and everything under it)
+[2.129s] Copying ../../../build/servo_action/servo_action.egg-info to /home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages/servo_action-0.0.0-py3.10.egg-info
+[2.130s] running install_scripts
+[2.146s] Installing Joint_Position script to /home/andrea/dobot_v3/install/servo_action/lib/servo_action
+[2.146s] Installing action_move_client script to /home/andrea/dobot_v3/install/servo_action/lib/servo_action
+[2.147s] Installing action_move_client_reality script to /home/andrea/dobot_v3/install/servo_action/lib/servo_action
+[2.147s] Installing action_move_server script to /home/andrea/dobot_v3/install/servo_action/lib/servo_action
+[2.147s] Installing action_move_server_reality script to /home/andrea/dobot_v3/install/servo_action/lib/servo_action
+[2.147s] writing list of installed files to '/home/andrea/dobot_v3/build/servo_action/install.log'
+[2.183s] Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action' returned '0': PYTHONPATH=/home/andrea/dobot_v3/build/servo_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/servo_action build --build-base /home/andrea/dobot_v3/build/servo_action/build install --record /home/andrea/dobot_v3/build/servo_action/install.log --single-version-externally-managed install_data

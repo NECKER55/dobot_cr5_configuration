@@ -1,0 +1,10 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follow_target_node.dir/src/follow_target.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable fake_zed_node[0m
+[ 62%] Built target fake_zed_node
+[ 75%] [32m[1mLinking CXX executable reworked_map_node[0m
+[ 87%] [32m[1mLinking CXX executable move_cr5_node[0m
+[ 87%] Built target reworked_map_node
+[ 87%] Built target move_cr5_node

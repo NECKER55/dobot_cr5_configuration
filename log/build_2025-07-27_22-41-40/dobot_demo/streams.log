@@ -1,0 +1,21 @@
+[1.686s] Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demo build --build-base /home/andrea/dobot_v3/build/dobot_demo/build install --record /home/andrea/dobot_v3/build/dobot_demo/install.log --single-version-externally-managed install_data
+[2.037s] running egg_info
+[2.038s] writing ../../../build/dobot_demo/dobot_demo.egg-info/PKG-INFO
+[2.038s] writing dependency_links to ../../../build/dobot_demo/dobot_demo.egg-info/dependency_links.txt
+[2.038s] writing entry points to ../../../build/dobot_demo/dobot_demo.egg-info/entry_points.txt
+[2.038s] writing requirements to ../../../build/dobot_demo/dobot_demo.egg-info/requires.txt
+[2.039s] writing top-level names to ../../../build/dobot_demo/dobot_demo.egg-info/top_level.txt
+[2.041s] reading manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+[2.043s] writing manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+[2.043s] running build
+[2.043s] running build_py
+[2.043s] running install
+[2.044s] running install_lib
+[2.046s] running install_data
+[2.046s] running install_egg_info
+[2.049s] removing '/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages/dobot_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[2.049s] Copying ../../../build/dobot_demo/dobot_demo.egg-info to /home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages/dobot_demo-0.0.0-py3.10.egg-info
+[2.051s] running install_scripts
+[2.069s] Installing demo script to /home/andrea/dobot_v3/install/dobot_demo/lib/dobot_demo
+[2.069s] writing list of installed files to '/home/andrea/dobot_v3/build/dobot_demo/install.log'
+[2.095s] Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo' returned '0': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demo build --build-base /home/andrea/dobot_v3/build/dobot_demo/build install --record /home/andrea/dobot_v3/build/dobot_demo/install.log --single-version-externally-managed install_data

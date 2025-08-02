@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target fake_zed_node[0m
+[35m[1mConsolidate compiler generated dependencies of target reworked_map_node[0m
+[35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[35m[1mConsolidate compiler generated dependencies of target follow_target_node[0m
+[ 50%] Built target fake_zed_node
+[ 50%] Built target reworked_map_node
+[ 75%] Built target move_cr5_node
+[ 87%] [32mBuilding CXX object CMakeFiles/follow_target_node.dir/src/follow_target.cpp.o[0m
+[100%] [32m[1mLinking CXX executable follow_target_node[0m

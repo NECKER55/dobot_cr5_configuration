@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: in function `processTargetPlants()':
+move_cr5_node.cpp:(.text+0x1d64): undefined reference to `processCircumference(custom_messages::msg::Object_<std::allocator<void> > const&, custom_messages::msg::Circumference_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/move_cr5_node.dir/build.make:365: move_cr5_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/move_cr5_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

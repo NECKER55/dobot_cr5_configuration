@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (-) JobUnselected: {'identifier': 'cr10_moveit'}
+[0.000287] (-) JobUnselected: {'identifier': 'cr12_moveit'}
+[0.000474] (-) JobUnselected: {'identifier': 'cr16_moveit'}
+[0.000504] (-) JobUnselected: {'identifier': 'cr3_moveit'}
+[0.000533] (-) JobUnselected: {'identifier': 'cr5_moveit'}
+[0.000655] (-) JobUnselected: {'identifier': 'cr7_moveit'}
+[0.000685] (-) JobUnselected: {'identifier': 'cra_description'}
+[0.000903] (-) JobUnselected: {'identifier': 'custom_messages'}
+[0.000959] (-) JobUnselected: {'identifier': 'dobot_bringup_v3'}
+[0.001004] (-) JobUnselected: {'identifier': 'dobot_demo'}
+[0.001137] (-) JobUnselected: {'identifier': 'dobot_gazebo'}
+[0.001177] (-) JobUnselected: {'identifier': 'dobot_moveit'}
+[0.001206] (-) JobUnselected: {'identifier': 'dobot_msgs_v3'}
+[0.001232] (-) JobUnselected: {'identifier': 'dobot_rviz'}
+[0.001272] (-) JobUnselected: {'identifier': 'nova2_moveit'}
+[0.001400] (-) JobUnselected: {'identifier': 'nova5_moveit'}
+[0.001441] (-) JobUnselected: {'identifier': 'servo_action'}
+[0.001641] (cr5_moveit_cpp_demo) JobQueued: {'identifier': 'cr5_moveit_cpp_demo', 'dependencies': OrderedDict([('custom_messages', '/home/andrea/dobot_v3/install/custom_messages')])}
+[0.001692] (cr5_moveit_cpp_demo) JobStarted: {'identifier': 'cr5_moveit_cpp_demo'}
+[0.010622] (cr5_moveit_cpp_demo) JobProgress: {'identifier': 'cr5_moveit_cpp_demo', 'progress': 'cmake'}
+[0.011463] (cr5_moveit_cpp_demo) JobProgress: {'identifier': 'cr5_moveit_cpp_demo', 'progress': 'build'}
+[0.012391] (cr5_moveit_cpp_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo', '--', '-j12', '-l12'], 'cwd': '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andrea'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andrea'), ('OLDPWD', '/home/andrea'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DOBOT_TYPE', 'cr5'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IP_address', '192.168.5.1'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andrea/dobot_v3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andrea'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andrea'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS-Lenovo-V15-G4-IRU:@/tmp/.ICE-unix/1310,unix/ROS-Lenovo-V15-G4-IRU:/tmp/.ICE-unix/1310'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a1eb085_70ef_4868_9d60_84b86bf4a6d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TX8FA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/dobot_demo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_msgs_v3/local/lib/python3.10/dist-packages:/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/custom_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble')]), 'shell': False}
+[0.085465] (cr5_moveit_cpp_demo) StdoutLine: {'line': b'[ 25%] Built target reworked_map_node\n'}
+[0.100502] (cr5_moveit_cpp_demo) StdoutLine: {'line': b'[ 50%] Built target fake_zed_node\n'}
+[0.100824] (-) TimerEvent: {}
+[0.101852] (cr5_moveit_cpp_demo) StdoutLine: {'line': b'[ 75%] Built target move_cr5_node\n'}
+[0.110870] (cr5_moveit_cpp_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/follow_target_node.dir/src/follow_target.cpp.o\x1b[0m\n'}
+[0.150960] (cr5_moveit_cpp_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable follow_target_node\x1b[0m\n'}
+[0.201061] (-) TimerEvent: {}
+[0.301382] (-) TimerEvent: {}
+[0.401732] (-) TimerEvent: {}
+[0.502150] (-) TimerEvent: {}
+[0.602623] (-) TimerEvent: {}
+[0.702969] (-) TimerEvent: {}
+[0.803290] (-) TimerEvent: {}
+[0.903746] (-) TimerEvent: {}
+[1.004189] (-) TimerEvent: {}
+[1.104598] (-) TimerEvent: {}
+[1.205028] (-) TimerEvent: {}
+[1.305404] (-) TimerEvent: {}
+[1.405827] (-) TimerEvent: {}
+[1.506136] (-) TimerEvent: {}
+[1.606481] (-) TimerEvent: {}
+[1.706899] (-) TimerEvent: {}
+[1.807318] (-) TimerEvent: {}
+[1.907729] (-) TimerEvent: {}
+[2.008155] (-) TimerEvent: {}
+[2.108651] (-) TimerEvent: {}
+[2.209015] (-) TimerEvent: {}
+[2.309412] (-) TimerEvent: {}
+[2.409706] (-) TimerEvent: {}
+[2.509933] (-) TimerEvent: {}
+[2.610184] (-) TimerEvent: {}
+[2.710474] (-) TimerEvent: {}
+[2.810729] (-) TimerEvent: {}
+[2.911002] (-) TimerEvent: {}
+[3.011259] (-) TimerEvent: {}
+[3.111531] (-) TimerEvent: {}
+[3.211871] (-) TimerEvent: {}
+[3.312106] (-) TimerEvent: {}
+[3.412335] (-) TimerEvent: {}
+[3.512625] (-) TimerEvent: {}
+[3.612912] (-) TimerEvent: {}
+[3.713199] (-) TimerEvent: {}
+[3.813516] (-) TimerEvent: {}
+[3.913902] (-) TimerEvent: {}
+[4.014128] (-) TimerEvent: {}
+[4.114383] (-) TimerEvent: {}
+[4.214766] (-) TimerEvent: {}
+[4.315035] (-) TimerEvent: {}
+[4.415272] (-) TimerEvent: {}
+[4.515611] (-) TimerEvent: {}
+[4.615943] (-) TimerEvent: {}
+[4.716181] (-) TimerEvent: {}
+[4.816438] (-) TimerEvent: {}
+[4.916665] (-) TimerEvent: {}
+[5.016914] (-) TimerEvent: {}
+[5.117158] (-) TimerEvent: {}
+[5.217430] (-) TimerEvent: {}
+[5.317781] (-) TimerEvent: {}
+[5.418071] (-) TimerEvent: {}
+[5.518321] (-) TimerEvent: {}
+[5.618653] (-) TimerEvent: {}
+[5.719010] (-) TimerEvent: {}
+[5.819378] (-) TimerEvent: {}
+[5.919749] (-) TimerEvent: {}
+[6.020214] (-) TimerEvent: {}
+[6.120589] (-) TimerEvent: {}
+[6.221056] (-) TimerEvent: {}
+[6.321354] (-) TimerEvent: {}
+[6.421653] (-) TimerEvent: {}
+[6.522076] (-) TimerEvent: {}
+[6.622518] (-) TimerEvent: {}
+[6.722964] (-) TimerEvent: {}
+[6.823295] (-) TimerEvent: {}
+[6.923750] (-) TimerEvent: {}
+[7.024205] (-) TimerEvent: {}
+[7.124603] (-) TimerEvent: {}
+[7.225114] (-) TimerEvent: {}
+[7.325394] (-) TimerEvent: {}
+[7.425759] (-) TimerEvent: {}
+[7.526157] (-) TimerEvent: {}
+[7.626533] (-) TimerEvent: {}
+[7.727021] (-) TimerEvent: {}
+[7.827448] (-) TimerEvent: {}
+[7.927859] (-) TimerEvent: {}
+[8.028294] (-) TimerEvent: {}
+[8.128779] (-) TimerEvent: {}
+[8.229370] (-) TimerEvent: {}
+[8.329704] (-) TimerEvent: {}
+[8.430050] (-) TimerEvent: {}
+[8.530392] (-) TimerEvent: {}
+[8.630734] (-) TimerEvent: {}
+[8.731083] (-) TimerEvent: {}
+[8.831531] (-) TimerEvent: {}
+[8.931966] (-) TimerEvent: {}
+[9.032313] (-) TimerEvent: {}
+[9.132721] (-) TimerEvent: {}
+[9.233162] (-) TimerEvent: {}
+[9.333633] (-) TimerEvent: {}
+[9.434071] (-) TimerEvent: {}
+[9.534513] (-) TimerEvent: {}
+[9.562297] (cr5_moveit_cpp_demo) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[9.562592] (cr5_moveit_cpp_demo) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[9.565110] (cr5_moveit_cpp_demo) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.567076] (cr5_moveit_cpp_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/follow_target_node.dir/build.make:365: follow_target_node] Error 1\n'}
+[9.567455] (cr5_moveit_cpp_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/follow_target_node.dir/all] Error 2\n'}
+[9.567699] (cr5_moveit_cpp_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.570716] (cr5_moveit_cpp_demo) CommandEnded: {'returncode': 2}
+[9.581031] (cr5_moveit_cpp_demo) JobEnded: {'identifier': 'cr5_moveit_cpp_demo', 'rc': 2}
+[9.591592] (-) EventReactorShutdown: {}

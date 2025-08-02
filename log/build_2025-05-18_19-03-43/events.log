@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (-) JobUnselected: {'identifier': 'cr10_moveit'}
+[0.000427] (-) JobUnselected: {'identifier': 'cr12_moveit'}
+[0.000458] (-) JobUnselected: {'identifier': 'cr16_moveit'}
+[0.000486] (-) JobUnselected: {'identifier': 'cr3_moveit'}
+[0.000510] (-) JobUnselected: {'identifier': 'cr5_moveit'}
+[0.000635] (-) JobUnselected: {'identifier': 'cr5_moveit_cpp_demo'}
+[0.000665] (-) JobUnselected: {'identifier': 'cr7_moveit'}
+[0.000863] (-) JobUnselected: {'identifier': 'cra_description'}
+[0.000903] (-) JobUnselected: {'identifier': 'custom_messages'}
+[0.000956] (-) JobUnselected: {'identifier': 'dobot_bringup_v3'}
+[0.001031] (-) JobUnselected: {'identifier': 'dobot_demo'}
+[0.001055] (-) JobUnselected: {'identifier': 'dobot_gazebo'}
+[0.001096] (-) JobUnselected: {'identifier': 'dobot_msgs_v3'}
+[0.001148] (-) JobUnselected: {'identifier': 'dobot_rviz'}
+[0.001174] (-) JobUnselected: {'identifier': 'nova2_moveit'}
+[0.001236] (-) JobUnselected: {'identifier': 'nova5_moveit'}
+[0.001261] (-) JobUnselected: {'identifier': 'servo_action'}
+[0.001287] (dobot_moveit) JobQueued: {'identifier': 'dobot_moveit', 'dependencies': OrderedDict()}
+[0.001344] (dobot_moveit) JobStarted: {'identifier': 'dobot_moveit'}
+[0.099109] (-) TimerEvent: {}
+[0.199411] (-) TimerEvent: {}
+[0.299831] (-) TimerEvent: {}
+[0.400130] (-) TimerEvent: {}
+[0.487529] (dobot_moveit) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/dobot_moveit', 'build', '--build-base', '/home/andrea/dobot_v3/build/dobot_moveit/build', 'install', '--record', '/home/andrea/dobot_v3/build/dobot_moveit/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andrea', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/andrea', 'OLDPWD': '/home/andrea/dobot_v3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DOBOT_TYPE': 'cr5', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '1511', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IP_address': '192.168.5.1', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/andrea/dobot_v3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andrea', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andrea', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS-Lenovo-V15-G4-IRU:@/tmp/.ICE-unix/1296,unix/ROS-Lenovo-V15-G4-IRU:/tmp/.ICE-unix/1296', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9f893716_a262_4add_bb6c_055bbeedbd0c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.74EX62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/dobot_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andrea/dobot_v3/build/dobot_moveit', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andrea/dobot_v3/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_bringup_v3/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_msgs_v3/local/lib/python3.10/dist-packages:/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo'}, 'shell': False}
+[0.500272] (-) TimerEvent: {}
+[0.600805] (-) TimerEvent: {}
+[0.652419] (dobot_moveit) StdoutLine: {'line': b'running egg_info\n'}
+[0.652807] (dobot_moveit) StdoutLine: {'line': b'creating ../../../build/dobot_moveit/dobot_moveit.egg-info\n'}
+[0.653019] (dobot_moveit) StdoutLine: {'line': b'writing ../../../build/dobot_moveit/dobot_moveit.egg-info/PKG-INFO\n'}
+[0.653255] (dobot_moveit) StdoutLine: {'line': b'writing dependency_links to ../../../build/dobot_moveit/dobot_moveit.egg-info/dependency_links.txt\n'}
+[0.653388] (dobot_moveit) StdoutLine: {'line': b'writing entry points to ../../../build/dobot_moveit/dobot_moveit.egg-info/entry_points.txt\n'}
+[0.653523] (dobot_moveit) StdoutLine: {'line': b'writing requirements to ../../../build/dobot_moveit/dobot_moveit.egg-info/requires.txt\n'}
+[0.653619] (dobot_moveit) StdoutLine: {'line': b'writing top-level names to ../../../build/dobot_moveit/dobot_moveit.egg-info/top_level.txt\n'}
+[0.653710] (dobot_moveit) StdoutLine: {'line': b"writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'\n"}
+[0.654527] (dobot_moveit) StdoutLine: {'line': b"reading manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'\n"}
+[0.654814] (dobot_moveit) StdoutLine: {'line': b"writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'\n"}
+[0.655029] (dobot_moveit) StdoutLine: {'line': b'running build\n'}
+[0.655166] (dobot_moveit) StdoutLine: {'line': b'running build_py\n'}
+[0.655365] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/build/dobot_moveit/build\n'}
+[0.655523] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/build/dobot_moveit/build/lib\n'}
+[0.655624] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/build/dobot_moveit/build/lib/dobot_moveit\n'}
+[0.655719] (dobot_moveit) StdoutLine: {'line': b'copying dobot_moveit/__init__.py -> /home/andrea/dobot_v3/build/dobot_moveit/build/lib/dobot_moveit\n'}
+[0.656572] (dobot_moveit) StdoutLine: {'line': b'running install\n'}
+[0.656725] (dobot_moveit) StdoutLine: {'line': b'running install_lib\n'}
+[0.656870] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit\n'}
+[0.657106] (dobot_moveit) StdoutLine: {'line': b'copying /home/andrea/dobot_v3/build/dobot_moveit/build/lib/dobot_moveit/__init__.py -> /home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit\n'}
+[0.657216] (dobot_moveit) StdoutLine: {'line': b'byte-compiling /home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/__init__.py to __init__.cpython-310.pyc\n'}
+[0.657314] (dobot_moveit) StdoutLine: {'line': b'running install_data\n'}
+[0.657408] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/install/dobot_moveit/share/ament_index\n'}
+[0.657500] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/install/dobot_moveit/share/ament_index/resource_index\n'}
+[0.657592] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/install/dobot_moveit/share/ament_index/resource_index/packages\n'}
+[0.657683] (dobot_moveit) StdoutLine: {'line': b'copying resource/dobot_moveit -> /home/andrea/dobot_v3/install/dobot_moveit/share/ament_index/resource_index/packages\n'}
+[0.657810] (dobot_moveit) StdoutLine: {'line': b'copying package.xml -> /home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit\n'}
+[0.657940] (dobot_moveit) StdoutLine: {'line': b'creating /home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/launch\n'}
+[0.658027] (dobot_moveit) StdoutLine: {'line': b'copying launch/moveit_gazebo.launch.py -> /home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/launch\n'}
+[0.658114] (dobot_moveit) StdoutLine: {'line': b'copying launch/dobot_moveit.launch.py -> /home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/launch\n'}
+[0.658198] (dobot_moveit) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.659883] (dobot_moveit) StdoutLine: {'line': b'Copying ../../../build/dobot_moveit/dobot_moveit.egg-info to /home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit-0.0.0-py3.10.egg-info\n'}
+[0.660993] (dobot_moveit) StdoutLine: {'line': b'running install_scripts\n'}
+[0.676969] (dobot_moveit) StdoutLine: {'line': b"writing list of installed files to '/home/andrea/dobot_v3/build/dobot_moveit/install.log'\n"}
+[0.694343] (dobot_moveit) CommandEnded: {'returncode': 0}
+[0.701181] (-) TimerEvent: {}
+[0.708416] (dobot_moveit) JobEnded: {'identifier': 'dobot_moveit', 'rc': 0}
+[0.708857] (-) EventReactorShutdown: {}

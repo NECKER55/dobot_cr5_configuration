@@ -1,0 +1,61 @@
+[0.014s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.038s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.165s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.169s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.205s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.206s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.327s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.349s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.357s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.372s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.413s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.499s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.638s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.642s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.650s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.670s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.684s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.702s] -- Found moveit_ros_robot_interaction: 2.5.9 (/opt/ros/humble/share/moveit_ros_robot_interaction/cmake)
+[0.709s] -- Found custom_messages: 0.0.0 (/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/cmake)
+[0.731s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] -- Configuring done
+[0.815s] -- Generating done
+[0.826s] -- Build files have been written to: /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target fake_zed_node[0m
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target reworked_map_node[0m
+[0.859s] [35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[0.873s] [ 66%] Built target reworked_map_node
+[0.873s] [ 66%] Built target fake_zed_node
+[0.886s] [100%] Built target move_cr5_node
+[0.898s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.910s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
+[0.915s] -- Install configuration: ""
+[0.916s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node
+[0.917s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node" to ""
+[0.917s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reworked_map_node
+[0.920s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reworked_map_node" to ""
+[0.920s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/fake_zed_node
+[0.921s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/fake_zed_node" to ""
+[0.921s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/launch
+[0.921s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/launch/scripts_launch.launch.py
+[0.921s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/package_run_dependencies/cr5_moveit_cpp_demo
+[0.921s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/parent_prefix_path/cr5_moveit_cpp_demo
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/ament_prefix_path.sh
+[0.922s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/ament_prefix_path.dsv
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/path.sh
+[0.922s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/path.dsv
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.bash
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.sh
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.zsh
+[0.922s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.dsv
+[0.922s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.dsv
+[0.922s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/packages/cr5_moveit_cpp_demo
+[0.923s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/cmake/cr5_moveit_cpp_demoConfig.cmake
+[0.923s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/cmake/cr5_moveit_cpp_demoConfig-version.cmake
+[0.923s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.xml
+[0.924s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo

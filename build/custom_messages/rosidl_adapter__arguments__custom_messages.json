@@ -1,0 +1,11 @@
+{
+  "package_name": "custom_messages",
+  "non_idl_tuples": [
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/BoundingBox.msg",
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/Circumference.msg",
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/Map.msg",
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/Object.msg",
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/OptimalPoint.msg",
+    "/home/andrea/dobot_v3/src/custom_messages/custom_messages:msg/Point.msg"
+  ]
+}

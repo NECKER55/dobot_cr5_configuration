@@ -1,0 +1,1112 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f766bf677c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f766c0ac700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f766c0ac700>>, mixin_verb=('build',))
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.249s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andrea/dobot_v3'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr10_moveit' with type 'ros.ament_cmake' and name 'cr10_moveit'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr12_moveit' with type 'ros.ament_cmake' and name 'cr12_moveit'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr16_moveit' with type 'ros.ament_cmake' and name 'cr16_moveit'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr3_moveit' with type 'ros.ament_cmake' and name 'cr3_moveit'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr5_moveit' with type 'ros.ament_cmake' and name 'cr5_moveit'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr7_moveit' with type 'ros.ament_cmake' and name 'cr7_moveit'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cra_description' with type 'ros.ament_cmake' and name 'cra_description'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3' with type 'ros.ament_python' and name 'dobot_bringup_v3'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_demo' with type 'ros.ament_python' and name 'dobot_demo'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_gazebo' with type 'ros.ament_cmake' and name 'dobot_gazebo'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_moveit' with type 'ros.ament_python' and name 'dobot_moveit'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3' with type 'ros.ament_cmake' and name 'dobot_msgs_v3'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_rviz' with type 'ros.ament_cmake' and name 'dobot_rviz'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/nova2_moveit' with type 'ros.ament_cmake' and name 'nova2_moveit'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/nova5_moveit' with type 'ros.ament_cmake' and name 'nova5_moveit'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/servo_action' with type 'ros.ament_python' and name 'servo_action'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_moveit_cpp_demo) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cr5_moveit_cpp_demo' with type 'ros.ament_cmake' and name 'cr5_moveit_cpp_demo'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages/custom_messages) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_messages/custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/andrea/dobot_v3/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cra_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'cra_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cra_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cra_description', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cra_description', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/custom_messages', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/custom_messages/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_demo', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_msgs_v3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_msgs_v3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_msgs_v3', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'dobot_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_rviz', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'servo_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'servo_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/servo_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/servo_action', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'cr10_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'cr10_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr10_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr10_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr10_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr12_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'cr12_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr12_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr12_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr12_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr16_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'cr16_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr16_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr16_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr16_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'cr3_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'cr3_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr3_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr3_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr3_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'cr5_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr5_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr5_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr5_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr5_moveit_cpp_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'cr5_moveit_cpp_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'cr7_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'cr7_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/cr7_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/cr7_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr7_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_v3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup_v3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_bringup_v3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_bringup_v3', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'dobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/dobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/dobot_gazebo', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova2_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'nova2_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/nova2_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/nova2_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova2_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'nova5_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'nova5_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrea/dobot_v3/build/nova5_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrea/dobot_v3/install/nova5_moveit', 'merge_install': False, 'path': '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova5_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.343s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_rviz' with build type 'ament_cmake'
+[0.343s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_rviz'
+[0.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cra_description' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cra_description'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/custom_messages/custom_messages' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/custom_messages/custom_messages'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo' with build type 'ament_python'
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demo', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/ament_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/ament_prefix_path.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit' with build type 'ament_python'
+[0.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_moveit', 'ament_prefix_path')
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/ament_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/ament_prefix_path.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/ament_prefix_path.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action' with build type 'ament_python'
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_action', 'ament_prefix_path')
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/ament_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/ament_prefix_path.dsv'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/ament_prefix_path.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/dobot_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/dobot_rviz -- -j12 -l12
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cra_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cra_description -- -j12 -l12
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/custom_messages -- -j12 -l12
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/dobot_msgs_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/dobot_msgs_v3 -- -j12 -l12
+[1.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo'
+[1.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.786s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.210s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit'
+[3.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action'
+[3.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/dobot_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/dobot_rviz -- -j12 -l12
+[4.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/dobot_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/dobot_rviz
+[4.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cra_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cra_description -- -j12 -l12
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cra_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cra_description
+[4.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cra_description)
+[4.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cra_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cra_description
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description' for CMake module files
+[4.113s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description' for CMake config files
+[4.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('cra_description', 'cmake_prefix_path')
+[4.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.ps1'
+[4.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.dsv'
+[4.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.sh'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/bin'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/lib/pkgconfig/cra_description.pc'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/lib/python3.10/site-packages'
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/bin'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.ps1'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.dsv'
+[4.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.sh'
+[4.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.bash'
+[4.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.zsh'
+[4.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cra_description/share/colcon-core/packages/cra_description)
+[4.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cra_description)
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description' for CMake config files
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('cra_description', 'cmake_prefix_path')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cra_description/share/cra_description/hook/cmake_prefix_path.sh'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/bin'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/lib/pkgconfig/cra_description.pc'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/lib/python3.10/site-packages'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cra_description/bin'
+[4.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.ps1'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.dsv'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.sh'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.bash'
+[4.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cra_description/share/cra_description/package.zsh'
+[4.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cra_description/share/colcon-core/packages/cra_description)
+[4.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_rviz)
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/dobot_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/dobot_rviz
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz' for CMake module files
+[4.191s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz' for CMake config files
+[4.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_rviz', 'cmake_prefix_path')
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.ps1'
+[4.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.dsv'
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.sh'
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/bin'
+[4.196s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/lib/pkgconfig/dobot_rviz.pc'
+[4.196s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/lib/python3.10/site-packages'
+[4.196s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/bin'
+[4.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.dsv'
+[4.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.sh'
+[4.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.bash'
+[4.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.zsh'
+[4.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_rviz/share/colcon-core/packages/dobot_rviz)
+[4.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_rviz)
+[4.219s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz' for CMake module files
+[4.220s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz' for CMake config files
+[4.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_rviz', 'cmake_prefix_path')
+[4.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.ps1'
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.dsv'
+[4.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/hook/cmake_prefix_path.sh'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/bin'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/lib/pkgconfig/dobot_rviz.pc'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/lib/python3.10/site-packages'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_rviz/bin'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.ps1'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.dsv'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.sh'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.bash'
+[4.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_rviz/share/dobot_rviz/package.zsh'
+[4.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_rviz/share/colcon-core/packages/dobot_rviz)
+[4.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr10_moveit' with build type 'ament_cmake'
+[4.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr10_moveit'
+[4.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr12_moveit' with build type 'ament_cmake'
+[4.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr12_moveit'
+[4.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr16_moveit' with build type 'ament_cmake'
+[4.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr16_moveit'
+[4.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr3_moveit' with build type 'ament_cmake'
+[4.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr3_moveit'
+[4.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr5_moveit' with build type 'ament_cmake'
+[4.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr5_moveit'
+[4.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.377s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr7_moveit' with build type 'ament_cmake'
+[4.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr7_moveit'
+[4.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_gazebo' with build type 'ament_cmake'
+[4.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_gazebo'
+[4.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr10_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr10_moveit -- -j12 -l12
+[4.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr12_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr12_moveit -- -j12 -l12
+[4.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr16_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr16_moveit -- -j12 -l12
+[4.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr3_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr3_moveit -- -j12 -l12
+[4.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit -- -j12 -l12
+[4.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr7_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr7_moveit -- -j12 -l12
+[4.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/dobot_gazebo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/dobot_gazebo -- -j12 -l12
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr10_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr10_moveit -- -j12 -l12
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr10_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr10_moveit
+[4.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr16_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr16_moveit -- -j12 -l12
+[4.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr16_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr16_moveit
+[4.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr3_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr3_moveit -- -j12 -l12
+[4.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr3_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr3_moveit
+[4.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr12_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr12_moveit -- -j12 -l12
+[4.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr12_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr12_moveit
+[4.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit -- -j12 -l12
+[4.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit
+[4.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr7_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr7_moveit -- -j12 -l12
+[4.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr7_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr7_moveit
+[4.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr10_moveit)
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit' for CMake module files
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit' for CMake config files
+[4.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr10_moveit', 'cmake_prefix_path')
+[4.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.ps1'
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr10_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr10_moveit
+[4.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.dsv'
+[4.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.sh'
+[4.854s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/bin'
+[4.854s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/lib/pkgconfig/cr10_moveit.pc'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/lib/python3.10/site-packages'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/bin'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.ps1'
+[4.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.dsv'
+[4.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.sh'
+[4.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.bash'
+[4.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.zsh'
+[4.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr10_moveit/share/colcon-core/packages/cr10_moveit)
+[4.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr10_moveit)
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit' for CMake module files
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit' for CMake config files
+[4.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr10_moveit', 'cmake_prefix_path')
+[4.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.ps1'
+[4.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.dsv'
+[4.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/hook/cmake_prefix_path.sh'
+[4.909s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/bin'
+[4.909s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/lib/pkgconfig/cr10_moveit.pc'
+[4.909s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/lib/python3.10/site-packages'
+[4.916s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr10_moveit/bin'
+[4.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.dsv'
+[4.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.sh'
+[4.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.bash'
+[4.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr10_moveit/share/cr10_moveit/package.zsh'
+[4.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr10_moveit/share/colcon-core/packages/cr10_moveit)
+[4.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr16_moveit)
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit' for CMake module files
+[4.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr16_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr16_moveit
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit' for CMake config files
+[4.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr16_moveit', 'cmake_prefix_path')
+[4.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.ps1'
+[4.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.dsv'
+[4.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.sh'
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/bin'
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/lib/pkgconfig/cr16_moveit.pc'
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/lib/python3.10/site-packages'
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/bin'
+[4.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.sh'
+[4.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.bash'
+[4.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.zsh'
+[4.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr16_moveit/share/colcon-core/packages/cr16_moveit)
+[4.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr16_moveit)
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit' for CMake module files
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit' for CMake config files
+[4.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr16_moveit', 'cmake_prefix_path')
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.ps1'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/hook/cmake_prefix_path.sh'
+[5.000s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/bin'
+[5.000s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/lib/pkgconfig/cr16_moveit.pc'
+[5.001s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/lib/python3.10/site-packages'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr16_moveit/bin'
+[5.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.ps1'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.dsv'
+[5.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.sh'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.bash'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr16_moveit/share/cr16_moveit/package.zsh'
+[5.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr16_moveit/share/colcon-core/packages/cr16_moveit)
+[5.047s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova2_moveit' with build type 'ament_cmake'
+[5.059s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova2_moveit'
+[5.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.093s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova5_moveit' with build type 'ament_cmake'
+[5.093s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/nova5_moveit'
+[5.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr3_moveit)
+[5.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr3_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr3_moveit
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit' for CMake module files
+[5.133s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit' for CMake config files
+[5.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr3_moveit', 'cmake_prefix_path')
+[5.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.dsv'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.sh'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/bin'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/lib/pkgconfig/cr3_moveit.pc'
+[5.146s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/lib/python3.10/site-packages'
+[5.146s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/bin'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.ps1'
+[5.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.dsv'
+[5.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.sh'
+[5.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.bash'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.zsh'
+[5.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr3_moveit/share/colcon-core/packages/cr3_moveit)
+[5.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr3_moveit)
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit' for CMake module files
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit' for CMake config files
+[5.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr3_moveit', 'cmake_prefix_path')
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.ps1'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.dsv'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/hook/cmake_prefix_path.sh'
+[5.161s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/bin'
+[5.161s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/lib/pkgconfig/cr3_moveit.pc'
+[5.162s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/lib/python3.10/site-packages'
+[5.162s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr3_moveit/bin'
+[5.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.ps1'
+[5.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.dsv'
+[5.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.sh'
+[5.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.bash'
+[5.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.zsh'
+[5.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr3_moveit/share/colcon-core/packages/cr3_moveit)
+[5.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr12_moveit)
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit' for CMake module files
+[5.175s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit' for CMake config files
+[5.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr12_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr12_moveit
+[5.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr12_moveit', 'cmake_prefix_path')
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.ps1'
+[5.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.dsv'
+[5.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.sh'
+[5.184s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/bin'
+[5.185s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/lib/pkgconfig/cr12_moveit.pc'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/lib/python3.10/site-packages'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/bin'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.ps1'
+[5.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.dsv'
+[5.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.sh'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.bash'
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.zsh'
+[5.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr12_moveit/share/colcon-core/packages/cr12_moveit)
+[5.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr12_moveit)
+[5.200s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit' for CMake module files
+[5.201s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit' for CMake config files
+[5.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr12_moveit', 'cmake_prefix_path')
+[5.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.ps1'
+[5.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.dsv'
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/hook/cmake_prefix_path.sh'
+[5.209s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/bin'
+[5.210s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/lib/pkgconfig/cr12_moveit.pc'
+[5.210s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/lib/python3.10/site-packages'
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr12_moveit/bin'
+[5.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.ps1'
+[5.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.dsv'
+[5.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.sh'
+[5.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.bash'
+[5.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr12_moveit/share/cr12_moveit/package.zsh'
+[5.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr12_moveit/share/colcon-core/packages/cr12_moveit)
+[5.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr5_moveit)
+[5.223s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit' for CMake module files
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit' for CMake config files
+[5.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit
+[5.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr5_moveit', 'cmake_prefix_path')
+[5.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.ps1'
+[5.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.dsv'
+[5.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.sh'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/bin'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/lib/pkgconfig/cr5_moveit.pc'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/lib/python3.10/site-packages'
+[5.240s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/bin'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.ps1'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.dsv'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.sh'
+[5.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.bash'
+[5.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.zsh'
+[5.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr5_moveit/share/colcon-core/packages/cr5_moveit)
+[5.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr5_moveit)
+[5.289s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit' for CMake module files
+[5.289s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit' for CMake config files
+[5.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr5_moveit', 'cmake_prefix_path')
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.ps1'
+[5.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.dsv'
+[5.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/hook/cmake_prefix_path.sh'
+[5.316s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/bin'
+[5.316s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/lib/pkgconfig/cr5_moveit.pc'
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/lib/python3.10/site-packages'
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit/bin'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.ps1'
+[5.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.dsv'
+[5.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.sh'
+[5.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.bash'
+[5.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit/share/cr5_moveit/package.zsh'
+[5.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr5_moveit/share/colcon-core/packages/cr5_moveit)
+[5.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/dobot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/dobot_gazebo -- -j12 -l12
+[5.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/dobot_gazebo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/dobot_gazebo
+[5.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr7_moveit)
+[5.369s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit' for CMake module files
+[5.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr7_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr7_moveit
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit' for CMake config files
+[5.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr7_moveit', 'cmake_prefix_path')
+[5.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.ps1'
+[5.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.dsv'
+[5.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.sh'
+[5.376s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/bin'
+[5.377s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/lib/pkgconfig/cr7_moveit.pc'
+[5.377s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/lib/python3.10/site-packages'
+[5.377s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/bin'
+[5.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.ps1'
+[5.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.dsv'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.sh'
+[5.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.bash'
+[5.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.zsh'
+[5.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr7_moveit/share/colcon-core/packages/cr7_moveit)
+[5.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr7_moveit)
+[5.403s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit' for CMake module files
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit' for CMake config files
+[5.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr7_moveit', 'cmake_prefix_path')
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.ps1'
+[5.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.dsv'
+[5.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/hook/cmake_prefix_path.sh'
+[5.420s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/bin'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/lib/pkgconfig/cr7_moveit.pc'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/lib/python3.10/site-packages'
+[5.425s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr7_moveit/bin'
+[5.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.ps1'
+[5.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.dsv'
+[5.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.sh'
+[5.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.bash'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr7_moveit/share/cr7_moveit/package.zsh'
+[5.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr7_moveit/share/colcon-core/packages/cr7_moveit)
+[5.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/nova2_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/nova2_moveit -- -j12 -l12
+[5.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_gazebo)
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo' for CMake module files
+[5.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/nova5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/nova5_moveit -- -j12 -l12
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo' for CMake config files
+[5.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/dobot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/dobot_gazebo
+[5.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_gazebo', 'cmake_prefix_path')
+[5.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.ps1'
+[5.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.dsv'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.sh'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/bin'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/lib/pkgconfig/dobot_gazebo.pc'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/lib/python3.10/site-packages'
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/bin'
+[5.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.dsv'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.sh'
+[5.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.bash'
+[5.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.zsh'
+[5.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_gazebo/share/colcon-core/packages/dobot_gazebo)
+[5.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_gazebo)
+[5.538s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo' for CMake module files
+[5.539s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo' for CMake config files
+[5.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_gazebo', 'cmake_prefix_path')
+[5.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.ps1'
+[5.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.dsv'
+[5.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/hook/cmake_prefix_path.sh'
+[5.543s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/bin'
+[5.543s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/lib/pkgconfig/dobot_gazebo.pc'
+[5.544s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/lib/python3.10/site-packages'
+[5.544s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_gazebo/bin'
+[5.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.ps1'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.dsv'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.sh'
+[5.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.bash'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_gazebo/share/dobot_gazebo/package.zsh'
+[5.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_gazebo/share/colcon-core/packages/dobot_gazebo)
+[5.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/nova2_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/nova2_moveit -- -j12 -l12
+[5.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/nova2_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/nova2_moveit
+[5.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/nova5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/nova5_moveit -- -j12 -l12
+[5.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/nova5_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/nova5_moveit
+[5.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova2_moveit)
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit' for CMake module files
+[5.714s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit' for CMake config files
+[5.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova2_moveit', 'cmake_prefix_path')
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.ps1'
+[5.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.dsv'
+[5.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.sh'
+[5.722s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/bin'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/lib/pkgconfig/nova2_moveit.pc'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/lib/python3.10/site-packages'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/bin'
+[5.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/nova2_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/nova2_moveit
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.ps1'
+[5.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.dsv'
+[5.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.sh'
+[5.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.bash'
+[5.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.zsh'
+[5.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/nova2_moveit/share/colcon-core/packages/nova2_moveit)
+[5.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova2_moveit)
+[5.755s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit' for CMake module files
+[5.756s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit' for CMake config files
+[5.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova2_moveit', 'cmake_prefix_path')
+[5.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.ps1'
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.dsv'
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/hook/cmake_prefix_path.sh'
+[5.772s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/bin'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/lib/pkgconfig/nova2_moveit.pc'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/lib/python3.10/site-packages'
+[5.781s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova2_moveit/bin'
+[5.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.ps1'
+[5.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.dsv'
+[5.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.sh'
+[5.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.bash'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova2_moveit/share/nova2_moveit/package.zsh'
+[5.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/nova2_moveit/share/colcon-core/packages/nova2_moveit)
+[5.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova5_moveit)
+[5.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/nova5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/nova5_moveit
+[5.815s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit' for CMake module files
+[5.823s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit' for CMake config files
+[5.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova5_moveit', 'cmake_prefix_path')
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.ps1'
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.dsv'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.sh'
+[5.843s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/bin'
+[5.847s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/lib/pkgconfig/nova5_moveit.pc'
+[5.848s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/lib/python3.10/site-packages'
+[5.848s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/bin'
+[5.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.ps1'
+[5.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.dsv'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.sh'
+[5.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.bash'
+[5.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.zsh'
+[5.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/nova5_moveit/share/colcon-core/packages/nova5_moveit)
+[5.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova5_moveit)
+[5.886s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit' for CMake module files
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit' for CMake config files
+[5.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova5_moveit', 'cmake_prefix_path')
+[5.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.ps1'
+[5.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.dsv'
+[5.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/hook/cmake_prefix_path.sh'
+[5.909s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/bin'
+[5.914s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/lib/pkgconfig/nova5_moveit.pc'
+[5.915s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/lib/python3.10/site-packages'
+[5.915s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/nova5_moveit/bin'
+[5.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.ps1'
+[5.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.dsv'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.sh'
+[5.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.bash'
+[5.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/nova5_moveit/share/nova5_moveit/package.zsh'
+[5.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/nova5_moveit/share/colcon-core/packages/nova5_moveit)
+[6.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action': PYTHONPATH=/home/andrea/dobot_v3/build/servo_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/servo_action build --build-base /home/andrea/dobot_v3/build/servo_action/build install --record /home/andrea/dobot_v3/build/servo_action/install.log --single-version-externally-managed install_data
+[6.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demo build --build-base /home/andrea/dobot_v3/build/dobot_demo/build install --record /home/andrea/dobot_v3/build/dobot_demo/install.log --single-version-externally-managed install_data
+[6.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/andrea/dobot_v3/build/dobot_moveit/build install --record /home/andrea/dobot_v3/build/dobot_moveit/install.log --single-version-externally-managed install_data
+[6.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/custom_messages -- -j12 -l12
+[6.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/custom_messages
+[6.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[6.958s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages' for CMake module files
+[6.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/custom_messages
+[6.962s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages' for CMake config files
+[6.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[6.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib'
+[6.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[6.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[6.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[6.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[6.980s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/bin'
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib/python3.10/site-packages'
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/bin'
+[6.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.ps1'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.dsv'
+[6.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.sh'
+[6.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.bash'
+[6.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.zsh'
+[6.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/custom_messages/share/colcon-core/packages/custom_messages)
+[6.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[6.987s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages' for CMake module files
+[6.988s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages' for CMake config files
+[6.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[6.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[6.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[6.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[6.997s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib'
+[6.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[6.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[7.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[7.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/bin'
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/lib/python3.10/site-packages'
+[7.007s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/custom_messages/bin'
+[7.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.ps1'
+[7.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.dsv'
+[7.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.sh'
+[7.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.bash'
+[7.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/package.zsh'
+[7.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/custom_messages/share/colcon-core/packages/custom_messages)
+[7.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo' with build type 'ament_cmake'
+[7.022s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo'
+[7.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[7.451s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit' for CMake module files
+[7.452s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit' for CMake config files
+[7.452s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit/lib'
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit/bin'
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit/lib/pkgconfig/dobot_moveit.pc'
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages'
+[7.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_moveit', 'pythonpath')
+[7.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/pythonpath.ps1'
+[7.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/pythonpath.dsv'
+[7.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/hook/pythonpath.sh'
+[7.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_moveit' returned '0': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/andrea/dobot_v3/build/dobot_moveit/build install --record /home/andrea/dobot_v3/build/dobot_moveit/install.log --single-version-externally-managed install_data
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_moveit/bin'
+[7.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_moveit)
+[7.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/package.ps1'
+[7.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/package.dsv'
+[7.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/package.sh'
+[7.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/package.bash'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_moveit/share/dobot_moveit/package.zsh'
+[7.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_moveit/share/colcon-core/packages/dobot_moveit)
+[7.657s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo' for CMake module files
+[7.657s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo' for CMake config files
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo/lib'
+[7.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/dobot_demo' returned '0': PYTHONPATH=/home/andrea/dobot_v3/build/dobot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demo build --build-base /home/andrea/dobot_v3/build/dobot_demo/build install --record /home/andrea/dobot_v3/build/dobot_demo/install.log --single-version-externally-managed install_data
+[7.659s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo/bin'
+[7.660s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo/lib/pkgconfig/dobot_demo.pc'
+[7.667s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo/lib/python3.10/site-packages'
+[7.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demo', 'pythonpath')
+[7.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/pythonpath.ps1'
+[7.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/pythonpath.dsv'
+[7.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/hook/pythonpath.sh'
+[7.674s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/dobot_demo/bin'
+[7.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_demo)
+[7.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/package.ps1'
+[7.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/package.dsv'
+[7.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/package.sh'
+[7.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/package.bash'
+[7.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/dobot_demo/share/dobot_demo/package.zsh'
+[7.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/dobot_demo/share/colcon-core/packages/dobot_demo)
+[8.102s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action' for CMake module files
+[8.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/servo_action' returned '0': PYTHONPATH=/home/andrea/dobot_v3/build/servo_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/servo_action build --build-base /home/andrea/dobot_v3/build/servo_action/build install --record /home/andrea/dobot_v3/build/servo_action/install.log --single-version-externally-managed install_data
+[8.110s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action' for CMake config files
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action/lib'
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action/bin'
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action/lib/pkgconfig/servo_action.pc'
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action/lib/python3.10/site-packages'
+[8.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_action', 'pythonpath')
+[8.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/pythonpath.ps1'
+[8.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/pythonpath.dsv'
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/servo_action/share/servo_action/hook/pythonpath.sh'
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/servo_action/bin'
+[8.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_action)
+[8.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/servo_action/share/servo_action/package.ps1'
+[8.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/servo_action/share/servo_action/package.dsv'
+[8.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/servo_action/share/servo_action/package.sh'
+[8.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/servo_action/share/servo_action/package.bash'
+[8.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/servo_action/share/servo_action/package.zsh'
+[8.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/servo_action/share/colcon-core/packages/servo_action)
+[32.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr5_moveit_cpp_demo)
+[32.215s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo' for CMake module files
+[32.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '2': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[32.216s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo' for CMake config files
+[32.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr5_moveit_cpp_demo', 'cmake_prefix_path')
+[32.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/hook/cmake_prefix_path.ps1'
+[32.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/hook/cmake_prefix_path.dsv'
+[32.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/hook/cmake_prefix_path.sh'
+[32.221s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib'
+[32.221s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/bin'
+[32.221s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/pkgconfig/cr5_moveit_cpp_demo.pc'
+[32.222s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/python3.10/site-packages'
+[32.222s] Level 1:colcon.colcon_core.environment:checking '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/bin'
+[32.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.ps1'
+[32.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.dsv'
+[32.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.sh'
+[32.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.bash'
+[32.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.zsh'
+[32.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/colcon-core/packages/cr5_moveit_cpp_demo)
+[34.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[34.013s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.025s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrea/dobot_v3/install/local_setup.ps1'
+[34.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andrea/dobot_v3/install/_local_setup_util_ps1.py'
+[34.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrea/dobot_v3/install/setup.ps1'
+[34.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrea/dobot_v3/install/local_setup.sh'
+[34.060s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andrea/dobot_v3/install/_local_setup_util_sh.py'
+[34.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrea/dobot_v3/install/setup.sh'
+[34.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrea/dobot_v3/install/local_setup.bash'
+[34.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrea/dobot_v3/install/setup.bash'
+[34.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrea/dobot_v3/install/local_setup.zsh'
+[34.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrea/dobot_v3/install/setup.zsh'

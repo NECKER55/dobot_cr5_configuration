@@ -1,0 +1,7 @@
+[console_scripts]
+dobot_bringup = dobot_bringup_v3.dobot_bringup:main
+feedback = dobot_bringup_v3.feedback:main
+joint_states_bridge = dobot_bringup_v3.joint_states_bridge:main
+listener_node = dobot_bringup_v3.zed_listener:main
+translater_node = dobot_bringup_v3.translater:main
+

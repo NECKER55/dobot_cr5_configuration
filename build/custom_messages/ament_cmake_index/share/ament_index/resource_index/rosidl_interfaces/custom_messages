@@ -1,0 +1,12 @@
+msg/BoundingBox.idl
+msg/BoundingBox.msg
+msg/Circumference.idl
+msg/Circumference.msg
+msg/Map.idl
+msg/Map.msg
+msg/Object.idl
+msg/Object.msg
+msg/OptimalPoint.idl
+msg/OptimalPoint.msg
+msg/Point.idl
+msg/Point.msg

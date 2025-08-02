@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o.d"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/circumference__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/circumference__type_support.cpp.o.d"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/map__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/map__type_support.cpp.o.d"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/object__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/object__type_support.cpp.o.d"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/optimal_point__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/optimal_point__type_support.cpp.o.d"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/point__type_support.cpp.o"
+  "CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/point__type_support.cpp.o.d"
+  "libcustom_messages__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcustom_messages__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/circumference__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/bounding_box__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/circumference__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/map__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/object__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/optimal_point__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/point__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/map__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/optimal_point__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

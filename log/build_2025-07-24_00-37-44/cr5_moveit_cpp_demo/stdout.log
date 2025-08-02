@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target follow_target_node[0m
+[ 25%] Built target reworked_map_node
+[ 50%] Built target move_cr5_node
+[ 75%] Built target fake_zed_node
+[ 87%] [32m[1mLinking CXX executable follow_target_node[0m

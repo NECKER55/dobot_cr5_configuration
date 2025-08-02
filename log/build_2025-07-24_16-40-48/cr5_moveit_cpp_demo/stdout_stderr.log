@@ -1,0 +1,10 @@
+[ 25%] Built target fake_zed_node
+[ 50%] Built target reworked_map_node
+[ 75%] Built target move_cr5_node
+[ 87%] [32m[1mLinking CXX executable follow_target_node[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/follow_target_node.dir/build.make:365: follow_target_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/follow_target_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

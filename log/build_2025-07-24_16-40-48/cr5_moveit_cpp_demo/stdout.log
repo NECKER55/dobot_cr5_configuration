@@ -1,0 +1,4 @@
+[ 25%] Built target fake_zed_node
+[ 50%] Built target reworked_map_node
+[ 75%] Built target move_cr5_node
+[ 87%] [32m[1mLinking CXX executable follow_target_node[0m
