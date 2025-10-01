@@ -1,8 +1,11 @@
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/uninstall.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/cr5_moveit_cpp_demo_uninstall.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/move_cr5_node.dir
+/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/move_cr5_node_modular.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/reworked_map_node.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/fake_zed_node.dir
+/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/reconnaissance_node.dir
+/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/matlab_slave_node.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/test.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/edit_cache.dir
 /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles/rebuild_cache.dir

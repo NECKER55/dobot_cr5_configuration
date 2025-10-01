@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:407 (file):
-  file INSTALL cannot find
-  "/home/andrea/dobot_v3/build/custom_messages/include/custom_messages/msg":
-  No such file or directory.
-
-[0m

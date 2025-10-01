@@ -1,8 +1,0 @@
-/usr/bin/ld: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: in function `processCircumference(custom_messages::msg::Object_<std::allocator<void> > const&, custom_messages::msg::Circumference_<std::allocator<void> > const&)':
-move_cr5_node.cpp:(.text+0x2865): undefined reference to `attemptToReachPoint(custom_messages::msg::Object_<std::allocator<void> > const&, ScanPoint&, std::vector<ScanPoint, std::allocator<ScanPoint> >&)'
-/usr/bin/ld: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: in function `scanUncoveredPoints(custom_messages::msg::Object_<std::allocator<void> > const&, std::vector<ScanPoint, std::allocator<ScanPoint> >&)':
-move_cr5_node.cpp:(.text+0x4c94): undefined reference to `attemptToReachPoint(custom_messages::msg::Object_<std::allocator<void> > const&, ScanPoint&, std::vector<ScanPoint, std::allocator<ScanPoint> >&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/move_cr5_node.dir/build.make:365: move_cr5_node] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/move_cr5_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

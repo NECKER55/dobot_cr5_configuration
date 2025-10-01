@@ -69,28 +69,28 @@ include CMakeFiles/move_cr5_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/move_cr5_node.dir/flags.make
 
-CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: CMakeFiles/move_cr5_node.dir/flags.make
-CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp
-CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o: CMakeFiles/move_cr5_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o -MF CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o.d -o CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o -c /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp
+CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o: CMakeFiles/move_cr5_node.dir/flags.make
+CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o: /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp
+CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o: CMakeFiles/move_cr5_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o -MF CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o.d -o CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o -c /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp
 
-CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp > CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.i
+CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp > CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.i
 
-CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp -o CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.s
+CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp -o CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.s
 
 # Object files for target move_cr5_node
 move_cr5_node_OBJECTS = \
-"CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o"
+"CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o"
 
 # External object files for target move_cr5_node
 move_cr5_node_EXTERNAL_OBJECTS =
 
-move_cr5_node: CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o
+move_cr5_node: CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o
 move_cr5_node: CMakeFiles/move_cr5_node.dir/build.make
 move_cr5_node: /opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.9
 move_cr5_node: /opt/ros/humble/lib/libmoveit_robot_interaction.so.2.5.9

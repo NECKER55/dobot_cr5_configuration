@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.o"
-  "CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.o.d"
+  "CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.o"
+  "CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.o.d"
   "reworked_map_node"
   "reworked_map_node.pdb"
 )

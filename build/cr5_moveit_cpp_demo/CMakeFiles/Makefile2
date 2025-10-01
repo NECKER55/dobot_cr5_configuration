@@ -64,8 +64,11 @@ CMAKE_BINARY_DIR = /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
 
 # The main recursive "all" target.
 all: CMakeFiles/move_cr5_node.dir/all
+all: CMakeFiles/move_cr5_node_modular.dir/all
 all: CMakeFiles/reworked_map_node.dir/all
 all: CMakeFiles/fake_zed_node.dir/all
+all: CMakeFiles/reconnaissance_node.dir/all
+all: CMakeFiles/matlab_slave_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,8 +79,11 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cr5_moveit_cpp_demo_uninstall.dir/clean
 clean: CMakeFiles/move_cr5_node.dir/clean
+clean: CMakeFiles/move_cr5_node_modular.dir/clean
 clean: CMakeFiles/reworked_map_node.dir/clean
 clean: CMakeFiles/fake_zed_node.dir/clean
+clean: CMakeFiles/reconnaissance_node.dir/clean
+clean: CMakeFiles/matlab_slave_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -139,7 +145,7 @@ CMakeFiles/cr5_moveit_cpp_demo_uninstall.dir/clean:
 CMakeFiles/move_cr5_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=3,4 "Built target move_cr5_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=5,6 "Built target move_cr5_node"
 .PHONY : CMakeFiles/move_cr5_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -159,13 +165,39 @@ CMakeFiles/move_cr5_node.dir/clean:
 .PHONY : CMakeFiles/move_cr5_node.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/move_cr5_node_modular.dir
+
+# All Build rule for target.
+CMakeFiles/move_cr5_node_modular.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target move_cr5_node_modular"
+.PHONY : CMakeFiles/move_cr5_node_modular.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_cr5_node_modular.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_cr5_node_modular.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 0
+.PHONY : CMakeFiles/move_cr5_node_modular.dir/rule
+
+# Convenience name for target.
+move_cr5_node_modular: CMakeFiles/move_cr5_node_modular.dir/rule
+.PHONY : move_cr5_node_modular
+
+# clean rule for target.
+CMakeFiles/move_cr5_node_modular.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/clean
+.PHONY : CMakeFiles/move_cr5_node_modular.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/reworked_map_node.dir
 
 # All Build rule for target.
 CMakeFiles/reworked_map_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=5,6 "Built target reworked_map_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=15,16 "Built target reworked_map_node"
 .PHONY : CMakeFiles/reworked_map_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,6 +241,58 @@ fake_zed_node: CMakeFiles/fake_zed_node.dir/rule
 CMakeFiles/fake_zed_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/clean
 .PHONY : CMakeFiles/fake_zed_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reconnaissance_node.dir
+
+# All Build rule for target.
+CMakeFiles/reconnaissance_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=13,14 "Built target reconnaissance_node"
+.PHONY : CMakeFiles/reconnaissance_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reconnaissance_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reconnaissance_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 0
+.PHONY : CMakeFiles/reconnaissance_node.dir/rule
+
+# Convenience name for target.
+reconnaissance_node: CMakeFiles/reconnaissance_node.dir/rule
+.PHONY : reconnaissance_node
+
+# clean rule for target.
+CMakeFiles/reconnaissance_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/clean
+.PHONY : CMakeFiles/reconnaissance_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/matlab_slave_node.dir
+
+# All Build rule for target.
+CMakeFiles/matlab_slave_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=3,4 "Built target matlab_slave_node"
+.PHONY : CMakeFiles/matlab_slave_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/matlab_slave_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matlab_slave_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles 0
+.PHONY : CMakeFiles/matlab_slave_node.dir/rule
+
+# Convenience name for target.
+matlab_slave_node: CMakeFiles/matlab_slave_node.dir/rule
+.PHONY : matlab_slave_node
+
+# clean rule for target.
+CMakeFiles/matlab_slave_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/clean
+.PHONY : CMakeFiles/matlab_slave_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

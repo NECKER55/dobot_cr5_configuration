@@ -1,0 +1,55 @@
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_ros_robot_interaction: 2.5.9 (/opt/ros/humble/share/moveit_ros_robot_interaction/cmake)
+-- Found custom_messages: 0.0.0 (/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
+[35m[1mConsolidate compiler generated dependencies of target reworked_map_node[0m
+[35m[1mConsolidate compiler generated dependencies of target reconnaissance_node[0m
+[35m[1mConsolidate compiler generated dependencies of target fake_zed_node[0m
+[35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[35m[1mConsolidate compiler generated dependencies of target move_cr5_node_modular[0m
+[  6%] [32mBuilding CXX object CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o[0m
+[ 18%] Built target reworked_map_node
+[ 31%] Built target fake_zed_node
+[ 43%] Built target move_cr5_node
+[ 56%] Built target reconnaissance_node
+[ 93%] Built target move_cr5_node_modular
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::MatlabSlaveNode::try_joint_space_planning(const Pose&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:147:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+  147 |             [01;31m[Krobot_state[m[K::RobotState start_state(*move_group_->getCurrentState());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:148:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+  148 |             const [01;31m[Krobot_state[m[K::JointModelGroup* joint_model_group =
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:151:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  151 |             bool found_ik = [01;31m[Kstart_state[m[K.setFromIK(joint_model_group, target_pose);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+      |                             [32m[Ksetstate[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:151:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_model_group[m[K’ was not declared in this scope
+  151 |             bool found_ik = start_state.setFromIK([01;31m[Kjoint_model_group[m[K, target_pose);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/matlab_slave_node.dir/build.make:76: CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/matlab_slave_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target matlab_slave_node[0m
+[ 12%] Built target reworked_map_node
+[ 25%] Built target move_cr5_node
+[ 37%] Built target reconnaissance_node
+[ 50%] Built target fake_zed_node
+[ 56%] [32mBuilding CXX object CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o[0m
+[ 93%] Built target move_cr5_node_modular
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::MatlabSlaveNode::try_joint_space_planning(const Pose&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:148:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+  148 |             [01;31m[Krobot_state[m[K::RobotState start_state(*move_group_->getCurrentState());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:149:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+  149 |             const [01;31m[Krobot_state[m[K::JointModelGroup* joint_model_group =
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:152:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  152 |             bool found_ik = [01;31m[Kstart_state[m[K.setFromIK(joint_model_group, target_pose);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+      |                             [32m[Ksetstate[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:152:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_model_group[m[K’ was not declared in this scope
+  152 |             bool found_ik = start_state.setFromIK([01;31m[Kjoint_model_group[m[K, target_pose);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/matlab_slave_node.dir/build.make:76: CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/matlab_slave_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

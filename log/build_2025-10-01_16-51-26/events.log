@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (-) JobUnselected: {'identifier': 'cr10_moveit'}
+[0.000723] (-) JobUnselected: {'identifier': 'cr12_moveit'}
+[0.000757] (-) JobUnselected: {'identifier': 'cr16_moveit'}
+[0.000853] (-) JobUnselected: {'identifier': 'cr3_moveit'}
+[0.000882] (-) JobUnselected: {'identifier': 'cr5_moveit'}
+[0.000912] (-) JobUnselected: {'identifier': 'cr7_moveit'}
+[0.000938] (-) JobUnselected: {'identifier': 'cra_description'}
+[0.000975] (-) JobUnselected: {'identifier': 'custom_messages'}
+[0.001010] (-) JobUnselected: {'identifier': 'dobot_bringup_v3'}
+[0.001069] (-) JobUnselected: {'identifier': 'dobot_demo'}
+[0.001101] (-) JobUnselected: {'identifier': 'dobot_gazebo'}
+[0.001156] (-) JobUnselected: {'identifier': 'dobot_moveit'}
+[0.001199] (-) JobUnselected: {'identifier': 'dobot_msgs_v3'}
+[0.001228] (-) JobUnselected: {'identifier': 'dobot_rviz'}
+[0.001253] (-) JobUnselected: {'identifier': 'nova2_moveit'}
+[0.001321] (-) JobUnselected: {'identifier': 'nova5_moveit'}
+[0.001348] (-) JobUnselected: {'identifier': 'servo_action'}
+[0.001384] (cr5_moveit_cpp_demo) JobQueued: {'identifier': 'cr5_moveit_cpp_demo', 'dependencies': OrderedDict([('custom_messages', '/home/andrea/dobot_v3/install/custom_messages')])}
+[0.001419] (cr5_moveit_cpp_demo) JobStarted: {'identifier': 'cr5_moveit_cpp_demo'}
+[0.008159] (cr5_moveit_cpp_demo) JobEnded: {'identifier': 'cr5_moveit_cpp_demo', 'rc': 1}
+[0.018576] (-) EventReactorShutdown: {}

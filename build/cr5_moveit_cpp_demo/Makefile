@@ -211,6 +211,19 @@ move_cr5_node/fast:
 .PHONY : move_cr5_node/fast
 
 #=============================================================================
+# Target rules for targets named move_cr5_node_modular
+
+# Build rule for target.
+move_cr5_node_modular: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_cr5_node_modular
+.PHONY : move_cr5_node_modular
+
+# fast build rule for target.
+move_cr5_node_modular/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/build
+.PHONY : move_cr5_node_modular/fast
+
+#=============================================================================
 # Target rules for targets named reworked_map_node
 
 # Build rule for target.
@@ -236,77 +249,271 @@ fake_zed_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/build
 .PHONY : fake_zed_node/fast
 
-src/fake_zed.o: src/fake_zed.cpp.o
-.PHONY : src/fake_zed.o
+#=============================================================================
+# Target rules for targets named reconnaissance_node
+
+# Build rule for target.
+reconnaissance_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reconnaissance_node
+.PHONY : reconnaissance_node
+
+# fast build rule for target.
+reconnaissance_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/build
+.PHONY : reconnaissance_node/fast
+
+#=============================================================================
+# Target rules for targets named matlab_slave_node
+
+# Build rule for target.
+matlab_slave_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matlab_slave_node
+.PHONY : matlab_slave_node
+
+# fast build rule for target.
+matlab_slave_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/build
+.PHONY : matlab_slave_node/fast
+
+src/external/fake_zed.o: src/external/fake_zed.cpp.o
+.PHONY : src/external/fake_zed.o
 
 # target to build an object file
-src/fake_zed.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o
-.PHONY : src/fake_zed.cpp.o
+src/external/fake_zed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o
+.PHONY : src/external/fake_zed.cpp.o
 
-src/fake_zed.i: src/fake_zed.cpp.i
-.PHONY : src/fake_zed.i
+src/external/fake_zed.i: src/external/fake_zed.cpp.i
+.PHONY : src/external/fake_zed.i
 
 # target to preprocess a source file
-src/fake_zed.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.i
-.PHONY : src/fake_zed.cpp.i
+src/external/fake_zed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.i
+.PHONY : src/external/fake_zed.cpp.i
 
-src/fake_zed.s: src/fake_zed.cpp.s
-.PHONY : src/fake_zed.s
+src/external/fake_zed.s: src/external/fake_zed.cpp.s
+.PHONY : src/external/fake_zed.s
 
 # target to generate assembly for a file
-src/fake_zed.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.s
-.PHONY : src/fake_zed.cpp.s
+src/external/fake_zed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_zed_node.dir/build.make CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.s
+.PHONY : src/external/fake_zed.cpp.s
 
-src/move_cr5_node.o: src/move_cr5_node.cpp.o
-.PHONY : src/move_cr5_node.o
+src/external/matlab_slave_node.o: src/external/matlab_slave_node.cpp.o
+.PHONY : src/external/matlab_slave_node.o
 
 # target to build an object file
-src/move_cr5_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o
-.PHONY : src/move_cr5_node.cpp.o
+src/external/matlab_slave_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o
+.PHONY : src/external/matlab_slave_node.cpp.o
 
-src/move_cr5_node.i: src/move_cr5_node.cpp.i
-.PHONY : src/move_cr5_node.i
+src/external/matlab_slave_node.i: src/external/matlab_slave_node.cpp.i
+.PHONY : src/external/matlab_slave_node.i
 
 # target to preprocess a source file
-src/move_cr5_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.i
-.PHONY : src/move_cr5_node.cpp.i
+src/external/matlab_slave_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.i
+.PHONY : src/external/matlab_slave_node.cpp.i
 
-src/move_cr5_node.s: src/move_cr5_node.cpp.s
-.PHONY : src/move_cr5_node.s
+src/external/matlab_slave_node.s: src/external/matlab_slave_node.cpp.s
+.PHONY : src/external/matlab_slave_node.s
 
 # target to generate assembly for a file
-src/move_cr5_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.s
-.PHONY : src/move_cr5_node.cpp.s
+src/external/matlab_slave_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matlab_slave_node.dir/build.make CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.s
+.PHONY : src/external/matlab_slave_node.cpp.s
 
-src/reworked_map.o: src/reworked_map.cpp.o
-.PHONY : src/reworked_map.o
+src/external/reconnaissance.o: src/external/reconnaissance.cpp.o
+.PHONY : src/external/reconnaissance.o
 
 # target to build an object file
-src/reworked_map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.o
-.PHONY : src/reworked_map.cpp.o
+src/external/reconnaissance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/src/external/reconnaissance.cpp.o
+.PHONY : src/external/reconnaissance.cpp.o
 
-src/reworked_map.i: src/reworked_map.cpp.i
-.PHONY : src/reworked_map.i
+src/external/reconnaissance.i: src/external/reconnaissance.cpp.i
+.PHONY : src/external/reconnaissance.i
 
 # target to preprocess a source file
-src/reworked_map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.i
-.PHONY : src/reworked_map.cpp.i
+src/external/reconnaissance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/src/external/reconnaissance.cpp.i
+.PHONY : src/external/reconnaissance.cpp.i
 
-src/reworked_map.s: src/reworked_map.cpp.s
-.PHONY : src/reworked_map.s
+src/external/reconnaissance.s: src/external/reconnaissance.cpp.s
+.PHONY : src/external/reconnaissance.s
 
 # target to generate assembly for a file
-src/reworked_map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/reworked_map.cpp.s
-.PHONY : src/reworked_map.cpp.s
+src/external/reconnaissance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reconnaissance_node.dir/build.make CMakeFiles/reconnaissance_node.dir/src/external/reconnaissance.cpp.s
+.PHONY : src/external/reconnaissance.cpp.s
+
+src/external/reworked_map.o: src/external/reworked_map.cpp.o
+.PHONY : src/external/reworked_map.o
+
+# target to build an object file
+src/external/reworked_map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.o
+.PHONY : src/external/reworked_map.cpp.o
+
+src/external/reworked_map.i: src/external/reworked_map.cpp.i
+.PHONY : src/external/reworked_map.i
+
+# target to preprocess a source file
+src/external/reworked_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.i
+.PHONY : src/external/reworked_map.cpp.i
+
+src/external/reworked_map.s: src/external/reworked_map.cpp.s
+.PHONY : src/external/reworked_map.s
+
+# target to generate assembly for a file
+src/external/reworked_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reworked_map_node.dir/build.make CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.s
+.PHONY : src/external/reworked_map.cpp.s
+
+src/modules/movement_controller.o: src/modules/movement_controller.cpp.o
+.PHONY : src/modules/movement_controller.o
+
+# target to build an object file
+src/modules/movement_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/movement_controller.cpp.o
+.PHONY : src/modules/movement_controller.cpp.o
+
+src/modules/movement_controller.i: src/modules/movement_controller.cpp.i
+.PHONY : src/modules/movement_controller.i
+
+# target to preprocess a source file
+src/modules/movement_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/movement_controller.cpp.i
+.PHONY : src/modules/movement_controller.cpp.i
+
+src/modules/movement_controller.s: src/modules/movement_controller.cpp.s
+.PHONY : src/modules/movement_controller.s
+
+# target to generate assembly for a file
+src/modules/movement_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/movement_controller.cpp.s
+.PHONY : src/modules/movement_controller.cpp.s
+
+src/modules/plant_processor.o: src/modules/plant_processor.cpp.o
+.PHONY : src/modules/plant_processor.o
+
+# target to build an object file
+src/modules/plant_processor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_processor.cpp.o
+.PHONY : src/modules/plant_processor.cpp.o
+
+src/modules/plant_processor.i: src/modules/plant_processor.cpp.i
+.PHONY : src/modules/plant_processor.i
+
+# target to preprocess a source file
+src/modules/plant_processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_processor.cpp.i
+.PHONY : src/modules/plant_processor.cpp.i
+
+src/modules/plant_processor.s: src/modules/plant_processor.cpp.s
+.PHONY : src/modules/plant_processor.s
+
+# target to generate assembly for a file
+src/modules/plant_processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_processor.cpp.s
+.PHONY : src/modules/plant_processor.cpp.s
+
+src/modules/plant_scanner.o: src/modules/plant_scanner.cpp.o
+.PHONY : src/modules/plant_scanner.o
+
+# target to build an object file
+src/modules/plant_scanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_scanner.cpp.o
+.PHONY : src/modules/plant_scanner.cpp.o
+
+src/modules/plant_scanner.i: src/modules/plant_scanner.cpp.i
+.PHONY : src/modules/plant_scanner.i
+
+# target to preprocess a source file
+src/modules/plant_scanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_scanner.cpp.i
+.PHONY : src/modules/plant_scanner.cpp.i
+
+src/modules/plant_scanner.s: src/modules/plant_scanner.cpp.s
+.PHONY : src/modules/plant_scanner.s
+
+# target to generate assembly for a file
+src/modules/plant_scanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_scanner.cpp.s
+.PHONY : src/modules/plant_scanner.cpp.s
+
+src/modules/scene_manager.o: src/modules/scene_manager.cpp.o
+.PHONY : src/modules/scene_manager.o
+
+# target to build an object file
+src/modules/scene_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.o
+.PHONY : src/modules/scene_manager.cpp.o
+
+src/modules/scene_manager.i: src/modules/scene_manager.cpp.i
+.PHONY : src/modules/scene_manager.i
+
+# target to preprocess a source file
+src/modules/scene_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.i
+.PHONY : src/modules/scene_manager.cpp.i
+
+src/modules/scene_manager.s: src/modules/scene_manager.cpp.s
+.PHONY : src/modules/scene_manager.s
+
+# target to generate assembly for a file
+src/modules/scene_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.s
+.PHONY : src/modules/scene_manager.cpp.s
+
+src/nodes/move_cr5_node.o: src/nodes/move_cr5_node.cpp.o
+.PHONY : src/nodes/move_cr5_node.o
+
+# target to build an object file
+src/nodes/move_cr5_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o
+.PHONY : src/nodes/move_cr5_node.cpp.o
+
+src/nodes/move_cr5_node.i: src/nodes/move_cr5_node.cpp.i
+.PHONY : src/nodes/move_cr5_node.i
+
+# target to preprocess a source file
+src/nodes/move_cr5_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.i
+.PHONY : src/nodes/move_cr5_node.cpp.i
+
+src/nodes/move_cr5_node.s: src/nodes/move_cr5_node.cpp.s
+.PHONY : src/nodes/move_cr5_node.s
+
+# target to generate assembly for a file
+src/nodes/move_cr5_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node.dir/build.make CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.s
+.PHONY : src/nodes/move_cr5_node.cpp.s
+
+src/nodes/move_cr5_node_modular.o: src/nodes/move_cr5_node_modular.cpp.o
+.PHONY : src/nodes/move_cr5_node_modular.o
+
+# target to build an object file
+src/nodes/move_cr5_node_modular.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.o
+.PHONY : src/nodes/move_cr5_node_modular.cpp.o
+
+src/nodes/move_cr5_node_modular.i: src/nodes/move_cr5_node_modular.cpp.i
+.PHONY : src/nodes/move_cr5_node_modular.i
+
+# target to preprocess a source file
+src/nodes/move_cr5_node_modular.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.i
+.PHONY : src/nodes/move_cr5_node_modular.cpp.i
+
+src/nodes/move_cr5_node_modular.s: src/nodes/move_cr5_node_modular.cpp.s
+.PHONY : src/nodes/move_cr5_node_modular.s
+
+# target to generate assembly for a file
+src/nodes/move_cr5_node_modular.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_cr5_node_modular.dir/build.make CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.s
+.PHONY : src/nodes/move_cr5_node_modular.cpp.s
 
 # Help Target
 help:
@@ -324,17 +531,41 @@ help:
 	@echo "... cr5_moveit_cpp_demo_uninstall"
 	@echo "... uninstall"
 	@echo "... fake_zed_node"
+	@echo "... matlab_slave_node"
 	@echo "... move_cr5_node"
+	@echo "... move_cr5_node_modular"
+	@echo "... reconnaissance_node"
 	@echo "... reworked_map_node"
-	@echo "... src/fake_zed.o"
-	@echo "... src/fake_zed.i"
-	@echo "... src/fake_zed.s"
-	@echo "... src/move_cr5_node.o"
-	@echo "... src/move_cr5_node.i"
-	@echo "... src/move_cr5_node.s"
-	@echo "... src/reworked_map.o"
-	@echo "... src/reworked_map.i"
-	@echo "... src/reworked_map.s"
+	@echo "... src/external/fake_zed.o"
+	@echo "... src/external/fake_zed.i"
+	@echo "... src/external/fake_zed.s"
+	@echo "... src/external/matlab_slave_node.o"
+	@echo "... src/external/matlab_slave_node.i"
+	@echo "... src/external/matlab_slave_node.s"
+	@echo "... src/external/reconnaissance.o"
+	@echo "... src/external/reconnaissance.i"
+	@echo "... src/external/reconnaissance.s"
+	@echo "... src/external/reworked_map.o"
+	@echo "... src/external/reworked_map.i"
+	@echo "... src/external/reworked_map.s"
+	@echo "... src/modules/movement_controller.o"
+	@echo "... src/modules/movement_controller.i"
+	@echo "... src/modules/movement_controller.s"
+	@echo "... src/modules/plant_processor.o"
+	@echo "... src/modules/plant_processor.i"
+	@echo "... src/modules/plant_processor.s"
+	@echo "... src/modules/plant_scanner.o"
+	@echo "... src/modules/plant_scanner.i"
+	@echo "... src/modules/plant_scanner.s"
+	@echo "... src/modules/scene_manager.o"
+	@echo "... src/modules/scene_manager.i"
+	@echo "... src/modules/scene_manager.s"
+	@echo "... src/nodes/move_cr5_node.o"
+	@echo "... src/nodes/move_cr5_node.i"
+	@echo "... src/nodes/move_cr5_node.s"
+	@echo "... src/nodes/move_cr5_node_modular.o"
+	@echo "... src/nodes/move_cr5_node_modular.i"
+	@echo "... src/nodes/move_cr5_node_modular.s"
 .PHONY : help
 
 

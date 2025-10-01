@@ -26,13 +26,40 @@ find_package(custom_messages REQUIRED)
 find_package(rosidl_default_runtime REQUIRED)
 find_package(rosidl_generator_cpp REQUIRED)
 
+# Add include directory for our headers
+include_directories(include)
+
 # Aggiungi l'eseguibile
-add_executable(move_cr5_node src/move_cr5_node.cpp)
-add_executable(reworked_map_node src/reworked_map.cpp)
-add_executable(fake_zed_node src/fake_zed.cpp)
-#add_executable(follow_target_node src/follow_target.cpp)
+add_executable(move_cr5_node src/nodes/move_cr5_node.cpp)
+add_executable(move_cr5_node_modular 
+    src/nodes/move_cr5_node_modular.cpp
+    src/modules/movement_controller.cpp
+    src/modules/plant_scanner.cpp
+    src/modules/scene_manager.cpp
+    src/modules/plant_processor.cpp
+)
+add_executable(reworked_map_node src/external/reworked_map.cpp)
+add_executable(fake_zed_node src/external/fake_zed.cpp)
+add_executable(reconnaissance_node src/external/reconnaissance.cpp)
+add_executable(matlab_slave_node src/external/matlab_slave_node.cpp)
+#add_executable(follow_target_node src/external/follow_target.cpp)
 
 # Link delle dipendenze al target
+ament_target_dependencies(move_cr5_node_modular
+rclcpp
+moveit_core
+moveit_ros_planning_interface
+moveit_ros_planning
+moveit_ros_robot_interaction
+moveit_ros_move_group
+geometry_msgs
+shape_msgs
+moveit_msgs
+tf2
+tf2_geometry_msgs
+custom_messages
+)
+
 ament_target_dependencies(move_cr5_node
 rclcpp
 moveit_core
@@ -78,6 +105,51 @@ tf2_geometry_msgs
 custom_messages
 )
 
+ament_target_dependencies(reconnaissance_node
+rclcpp
+moveit_core
+moveit_ros_planning_interface
+moveit_ros_planning
+moveit_ros_robot_interaction
+moveit_ros_move_group
+geometry_msgs
+shape_msgs
+moveit_msgs
+tf2
+tf2_geometry_msgs
+custom_messages
+)
+
+ament_target_dependencies(matlab_slave_node
+rclcpp
+moveit_core
+moveit_ros_planning_interface
+moveit_ros_planning
+moveit_ros_robot_interaction
+moveit_ros_move_group
+geometry_msgs
+shape_msgs
+moveit_msgs
+tf2
+tf2_geometry_msgs
+custom_messages
+)
+
+ament_target_dependencies(move_cr5_node
+rclcpp
+moveit_core
+moveit_ros_planning_interface
+moveit_ros_planning
+moveit_ros_robot_interaction
+moveit_ros_move_group
+geometry_msgs
+shape_msgs
+moveit_msgs
+tf2
+tf2_geometry_msgs
+custom_messages
+)
+
 
 #ament_target_dependencies(follow_target_node
 #rclcpp
@@ -97,8 +169,11 @@ custom_messages
 # Installa l'eseguibile
 install(TARGETS
 move_cr5_node
+move_cr5_node_modular
 reworked_map_node
 fake_zed_node
+reconnaissance_node
+matlab_slave_node
 #follow_target_node
 DESTINATION lib/${PROJECT_NAME}
 )
@@ -119,7 +194,6 @@ ament_lint_auto_find_test_dependencies()
 endif()
 
 ament_package()
-
 
 
 

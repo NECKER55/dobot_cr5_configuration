@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target matlab_slave_node[0m
+[ 12%] Built target reworked_map_node
+[ 25%] Built target move_cr5_node
+[ 37%] Built target reconnaissance_node
+[ 50%] Built target fake_zed_node
+[ 56%] [32mBuilding CXX object CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o[0m
+[ 93%] Built target move_cr5_node_modular

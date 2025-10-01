@@ -69,28 +69,28 @@ include CMakeFiles/fake_zed_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fake_zed_node.dir/flags.make
 
-CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o: CMakeFiles/fake_zed_node.dir/flags.make
-CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o: /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/fake_zed.cpp
-CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o: CMakeFiles/fake_zed_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o -MF CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o.d -o CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o -c /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/fake_zed.cpp
+CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o: CMakeFiles/fake_zed_node.dir/flags.make
+CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o: /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/fake_zed.cpp
+CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o: CMakeFiles/fake_zed_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o -MF CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o.d -o CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o -c /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/fake_zed.cpp
 
-CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/fake_zed.cpp > CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.i
+CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/fake_zed.cpp > CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.i
 
-CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/fake_zed.cpp -o CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.s
+CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/fake_zed.cpp -o CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.s
 
 # Object files for target fake_zed_node
 fake_zed_node_OBJECTS = \
-"CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o"
+"CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o"
 
 # External object files for target fake_zed_node
 fake_zed_node_EXTERNAL_OBJECTS =
 
-fake_zed_node: CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o
+fake_zed_node: CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o
 fake_zed_node: CMakeFiles/fake_zed_node.dir/build.make
 fake_zed_node: /opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.9
 fake_zed_node: /opt/ros/humble/lib/libmoveit_robot_interaction.so.2.5.9

@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target matlab_slave_node[0m
+[0.149s] [ 12%] Built target reworked_map_node
+[0.150s] [ 25%] Built target move_cr5_node
+[0.153s] [ 37%] Built target reconnaissance_node
+[0.154s] [ 50%] Built target fake_zed_node
+[0.157s] [ 56%] [32mBuilding CXX object CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o[0m
+[0.167s] [ 93%] Built target move_cr5_node_modular
+[3.509s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::MatlabSlaveNode::try_joint_space_planning(const Pose&)[m[K’:
+[3.509s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:148:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+[3.509s]   148 |             [01;31m[Krobot_state[m[K::RobotState start_state(*move_group_->getCurrentState());
+[3.509s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.512s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:149:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+[3.512s]   149 |             const [01;31m[Krobot_state[m[K::JointModelGroup* joint_model_group =
+[3.512s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[3.519s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:152:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+[3.519s]   152 |             bool found_ik = [01;31m[Kstart_state[m[K.setFromIK(joint_model_group, target_pose);
+[3.519s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[3.519s]       |                             [32m[Ksetstate[m[K
+[3.532s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:152:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_model_group[m[K’ was not declared in this scope
+[3.532s]   152 |             bool found_ik = start_state.setFromIK([01;31m[Kjoint_model_group[m[K, target_pose);
+[3.532s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.726s] gmake[2]: *** [CMakeFiles/matlab_slave_node.dir/build.make:76: CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o] Error 1
+[6.726s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/matlab_slave_node.dir/all] Error 2
+[6.727s] gmake: *** [Makefile:146: all] Error 2
+[6.729s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '2': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12

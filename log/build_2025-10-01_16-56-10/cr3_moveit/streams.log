@@ -1,0 +1,61 @@
+[0.054s] Invoking command in '/home/andrea/dobot_v3/build/cr3_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake /home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr3_moveit -DCMAKE_INSTALL_PREFIX=/home/andrea/dobot_v3/install/cr3_moveit
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.411s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.600s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.551s] -- Configuring done
+[1.560s] -- Generating done
+[1.561s] -- Build files have been written to: /home/andrea/dobot_v3/build/cr3_moveit
+[1.625s] Invoked command in '/home/andrea/dobot_v3/build/cr3_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake /home/andrea/dobot_v3/src/DOBOT_6Axis_ROS2_V3/cr3_moveit -DCMAKE_INSTALL_PREFIX=/home/andrea/dobot_v3/install/cr3_moveit
+[1.626s] Invoking command in '/home/andrea/dobot_v3/build/cr3_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr3_moveit -- -j12 -l12
+[1.697s] Invoked command in '/home/andrea/dobot_v3/build/cr3_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr3_moveit -- -j12 -l12
+[1.699s] Invoking command in '/home/andrea/dobot_v3/build/cr3_moveit': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr3_moveit
+[1.710s] -- Install configuration: ""
+[1.710s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/ament_index/resource_index/package_run_dependencies/cr3_moveit
+[1.710s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/ament_index/resource_index/parent_prefix_path/cr3_moveit
+[1.711s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/environment/ament_prefix_path.sh
+[1.711s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/environment/ament_prefix_path.dsv
+[1.711s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/environment/path.sh
+[1.711s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/environment/path.dsv
+[1.711s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/local_setup.bash
+[1.712s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/local_setup.sh
+[1.712s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/local_setup.zsh
+[1.712s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/local_setup.dsv
+[1.712s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.dsv
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/ament_index/resource_index/packages/cr3_moveit
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/cmake/cr3_moveitConfig.cmake
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/cmake/cr3_moveitConfig-version.cmake
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/package.xml
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/static_virtual_joint_tfs.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/move_group.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/moveit_gazebo.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/setup_assistant.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/demo.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/moveit_rviz.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/spawn_controllers.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/warehouse_db.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/launch/rsp.launch.py
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/cr3_robot.srdf
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/ros2_controllers.yaml
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/joint_limits.yaml
+[1.713s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/initial_positions.yaml
+[1.714s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/kinematics.yaml
+[1.714s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/moveit_controllers.yaml
+[1.716s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/cr3_robot.urdf.xacro
+[1.717s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/pilz_cartesian_limits.yaml
+[1.717s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/moveit.rviz
+[1.717s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/config/cr3_robot.ros2_control.xacro
+[1.717s] -- Installing: /home/andrea/dobot_v3/install/cr3_moveit/share/cr3_moveit/.setup_assistant
+[1.737s] Invoked command in '/home/andrea/dobot_v3/build/cr3_moveit' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr3_moveit

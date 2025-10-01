@@ -6,15 +6,21 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "${workspaceFolder}/**",  // Include tutto il workspace
-        "/opt/ros/humble/include/**", // Include gli header di ROS 2 Humble
-        "/usr/include/**"         // Include gli header di sistema
+        "${workspaceFolder}/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**",
+        "${workspaceFolder}/install/*/include/**",
+        "${workspaceFolder}/src/*/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "gnu11",
-      "cppStandard": "c++14"
+      "cppStandard": "c++17",
+      "compileCommands": "${workspaceFolder}/compile_commands.json",
+      "defines": [
+        "ROS_DISTRO_HUMBLE"
+      ]
     }
   ],
   "version": 4

@@ -1,4 +1,0 @@
-[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/reworked_map.cpp:[m[K In function ‘[01m[Kdouble calculateCoverageContribution(const OptimalPoint&, const Object&, double)[m[K’:
-[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/reworked_map.cpp:574:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  574 | double calculateCoverageContribution([01;35m[Kconst custom_messages::msg::OptimalPoint& point[m[K,
-      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

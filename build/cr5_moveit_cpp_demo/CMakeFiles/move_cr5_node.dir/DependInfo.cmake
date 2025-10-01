@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp" "CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o" "gcc" "CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o.d"
+  "/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp" "CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o" "gcc" "CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o.d"
   )
 
 # Targets to which this target links.

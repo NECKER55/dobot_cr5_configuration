@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o"
-  "CMakeFiles/fake_zed_node.dir/src/fake_zed.cpp.o.d"
+  "CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o"
+  "CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o.d"
   "fake_zed_node"
   "fake_zed_node.pdb"
 )

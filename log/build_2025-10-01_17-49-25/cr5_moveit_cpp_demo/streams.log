@@ -1,0 +1,198 @@
+[0.019s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.151s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.397s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.729s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.776s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.782s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.801s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.851s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.910s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.114s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.119s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.130s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.153s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.168s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.191s] -- Found moveit_ros_robot_interaction: 2.5.9 (/opt/ros/humble/share/moveit_ros_robot_interaction/cmake)
+[1.201s] -- Found custom_messages: 0.0.0 (/home/andrea/dobot_v3/install/custom_messages/share/custom_messages/cmake)
+[1.243s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.300s] -- Configuring done
+[1.374s] -- Generating done
+[1.392s] -- Build files have been written to: /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
+[1.445s] [  7%] [32mBuilding CXX object CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o[0m
+[1.454s] [ 14%] [32mBuilding CXX object CMakeFiles/reworked_map_node.dir/src/external/reworked_map.cpp.o[0m
+[1.454s] [ 21%] [32mBuilding CXX object CMakeFiles/reconnaissance_node.dir/src/external/reconnaissance.cpp.o[0m
+[1.454s] [ 35%] [32mBuilding CXX object CMakeFiles/fake_zed_node.dir/src/external/fake_zed.cpp.o[0m
+[1.455s] [ 35%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.o[0m
+[1.456s] [ 42%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_processor.cpp.o[0m
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/movement_controller.cpp.o[0m
+[1.457s] [ 57%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_scanner.cpp.o[0m
+[1.458s] [ 64%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.o[0m
+[8.295s] [ 71%] [32m[1mLinking CXX executable fake_zed_node[0m
+[8.764s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.765s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.765s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.765s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.765s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/modules/plant_processor.hpp:3[m[K,
+[8.765s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:1[m[K:
+[8.765s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantProcessor::mapCallback(custom_messages::msg::Map_<std::allocator<void> >::SharedPtr, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface&)[m[K’:
+[8.765s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:17:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.765s]    17 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.765s]       |                                      [01;35m[K^~[m[K
+[8.769s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:44:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.769s]    44 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.769s]       |                                      [01;35m[K^~[m[K
+[8.771s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:54:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.772s]    54 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.772s]       |                                      [01;35m[K^~[m[K
+[8.774s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantProcessor::processTargetPlants(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[8.775s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:65:46:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.775s]    65 |             RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.775s]       |                                              [01;35m[K^~[m[K
+[8.778s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:91:50:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.778s]    91 |                 RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.778s]       |                                                  [01;35m[K^~[m[K
+[8.780s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_processor.cpp:114:46:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.780s]   114 |             RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[8.780s]       |                                              [01;35m[K^~[m[K
+[9.416s] [ 71%] Built target fake_zed_node
+[9.527s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[9.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.532s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:341[m[K:
+[9.532s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid mapCallback(custom_messages::msg::Map_<std::allocator<void> >::SharedPtr, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface)[m[K’:
+[9.532s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:405:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.532s]   405 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.532s]       |                          [01;35m[K^~[m[K
+[9.532s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:433:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.532s]   433 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.533s]       |                          [01;35m[K^~[m[K
+[9.538s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:443:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.538s]   443 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.538s]       |                          [01;35m[K^~[m[K
+[9.548s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid processTargetPlants(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[9.548s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:525:34:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.548s]   525 |             RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.548s]       |                                  [01;35m[K^~[m[K
+[9.551s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:552:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.551s]   552 |                 RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.551s]       |                                      [01;35m[K^~[m[K
+[9.553s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:577:34:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.553s]   577 |             RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.553s]       |                                  [01;35m[K^~[m[K
+[9.584s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid processCircumference(geometry_msgs::msg::Point&, const Circumference&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[9.584s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:645:30:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.584s]   645 |         RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.584s]       |                              [01;35m[K^~[m[K
+[9.586s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:673:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.586s]   673 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.586s]       |                          [01;35m[K^~[m[K
+[9.601s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid scanUncoveredPoints(std::vector<ScanPoint>&, geometry_msgs::msg::Point&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[9.601s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node.cpp:904:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.601s]   904 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+[9.601s]       |                          [01;35m[K^~[m[K
+[9.735s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[9.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.736s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/modules/plant_scanner.hpp:3[m[K,
+[9.736s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:1[m[K:
+[9.736s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantScanner::processCircumference(geometry_msgs::msg::Point&, const Circumference&, moveit::planning_interface::MoveGroupInterface&, int)[m[K’:
+[9.736s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:65:42:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.736s]    65 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[9.736s]       |                                          [01;35m[K^~[m[K
+[9.739s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:91:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.739s]    91 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[9.739s]       |                                      [01;35m[K^~[m[K
+[9.740s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.740s]    17 |                                        [01;35m[Kint trajectory_index[m[K) {
+[9.740s]       |                                        [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[9.746s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.747s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/modules/plant_scanner.hpp:3[m[K,
+[9.747s]                  from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:1[m[K:
+[9.747s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantScanner::scanUncoveredPoints(std::vector<cr5_demo::ScanPoint>&, geometry_msgs::msg::Point&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[9.747s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:172:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[9.747s]   172 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+[9.747s]       |                                      [01;35m[K^~[m[K
+[9.750s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/modules/plant_scanner.cpp:113:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_to_watch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.750s]   113 |                                       [01;35m[Kgeometry_msgs::msg::Point& target_to_watch[m[K,
+[9.750s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[14.261s] [ 78%] [32m[1mLinking CXX executable reworked_map_node[0m
+[15.229s] [ 78%] Built target reworked_map_node
+[17.484s] [ 85%] [32m[1mLinking CXX executable move_cr5_node_modular[0m
+[18.554s] [ 85%] Built target move_cr5_node_modular
+[19.567s] [ 92%] [32m[1mLinking CXX executable reconnaissance_node[0m
+[19.872s] [100%] [32m[1mLinking CXX executable move_cr5_node[0m
+[20.253s] [100%] Built target reconnaissance_node
+[20.484s] [100%] Built target move_cr5_node
+[20.494s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[20.503s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo
+[20.516s] -- Install configuration: ""
+[20.516s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node
+[20.519s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node" to ""
+[20.519s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node_modular
+[20.523s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/move_cr5_node_modular" to ""
+[20.523s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reworked_map_node
+[20.525s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reworked_map_node" to ""
+[20.526s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/fake_zed_node
+[20.527s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/fake_zed_node" to ""
+[20.527s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reconnaissance_node
+[20.530s] -- Set runtime path of "/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/lib/cr5_moveit_cpp_demo/reconnaissance_node" to ""
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/launch
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/launch/scripts_launch.launch.py
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/launch/cr5_complete_system.launch.py
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/package_run_dependencies/cr5_moveit_cpp_demo
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/parent_prefix_path/cr5_moveit_cpp_demo
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/ament_prefix_path.sh
+[20.530s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/ament_prefix_path.dsv
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/path.sh
+[20.530s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/environment/path.dsv
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.bash
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.sh
+[20.530s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.zsh
+[20.530s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/local_setup.dsv
+[20.531s] -- Installing: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.dsv
+[20.531s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/ament_index/resource_index/packages/cr5_moveit_cpp_demo
+[20.531s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/cmake/cr5_moveit_cpp_demoConfig.cmake
+[20.531s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/cmake/cr5_moveit_cpp_demoConfig-version.cmake
+[20.531s] -- Up-to-date: /home/andrea/dobot_v3/install/cr5_moveit_cpp_demo/share/cr5_moveit_cpp_demo/package.xml
+[20.534s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo

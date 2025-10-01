@@ -1,0 +1,17 @@
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::MatlabSlaveNode::try_joint_space_planning(const Pose&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:147:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+  147 |             [01;31m[Krobot_state[m[K::RobotState start_state(*move_group_->getCurrentState());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:148:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+  148 |             const [01;31m[Krobot_state[m[K::JointModelGroup* joint_model_group =
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:151:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  151 |             bool found_ik = [01;31m[Kstart_state[m[K.setFromIK(joint_model_group, target_pose);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+      |                             [32m[Ksetstate[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/external/matlab_slave_node.cpp:151:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_model_group[m[K’ was not declared in this scope
+  151 |             bool found_ik = start_state.setFromIK([01;31m[Kjoint_model_group[m[K, target_pose);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/matlab_slave_node.dir/build.make:76: CMakeFiles/matlab_slave_node.dir/src/external/matlab_slave_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/matlab_slave_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

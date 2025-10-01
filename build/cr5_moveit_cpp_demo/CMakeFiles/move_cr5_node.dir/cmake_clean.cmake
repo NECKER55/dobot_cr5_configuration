@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o"
-  "CMakeFiles/move_cr5_node.dir/src/move_cr5_node.cpp.o.d"
+  "CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o"
+  "CMakeFiles/move_cr5_node.dir/src/nodes/move_cr5_node.cpp.o.d"
   "move_cr5_node"
   "move_cr5_node.pdb"
 )

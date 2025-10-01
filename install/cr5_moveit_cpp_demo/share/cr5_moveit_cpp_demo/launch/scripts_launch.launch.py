@@ -17,4 +17,11 @@ def generate_launch_description():
             name='fake_zed',
             output='screen', # Mostra l'output del nodo nel terminale
         ),
+        # Nodo che si sottoscrive al topic matlab_slave per ricevere pose e muovere il robot
+        Node(
+            package='cr5_moveit_cpp_demo',
+            executable='matlab_slave_node',
+            name='matlab_slave',
+            output='screen',
+        ),
     ])

@@ -1,0 +1,119 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/plant_scanner.hpp:3[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:1[m[K:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantScanner::processCircumference(geometry_msgs::msg::Point&, const Circumference&, moveit::planning_interface::MoveGroupInterface&, int)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:65:42:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   65 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                          [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:91:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   91 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |                                        [01;35m[Kint trajectory_index[m[K) {
+      |                                        [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/plant_scanner.hpp:3[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:1[m[K:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantScanner::scanUncoveredPoints(std::vector<cr5_demo::ScanPoint>&, geometry_msgs::msg::Point&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:172:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  172 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_scanner.cpp:113:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_to_watch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 |                                       [01;35m[Kgeometry_msgs::msg::Point& target_to_watch[m[K,
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/include/plant_processor.hpp:3[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:1[m[K:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantProcessor::mapCallback(custom_messages::msg::Map_<std::allocator<void> >::SharedPtr, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:17:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   17 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:44:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   44 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:54:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   54 |     RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:[m[K In member function ‘[01m[Kvoid cr5_demo::PlantProcessor::processTargetPlants(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:65:46:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   65 |             RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                              [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:91:50:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   91 |                 RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                                  [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/plant_processor.cpp:114:46:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  114 |             RCLCPP_INFO(node_->get_logger(), [01;35m[K""[m[K);
+      |                                              [01;35m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:341[m[K:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid mapCallback(custom_messages::msg::Map_<std::allocator<void> >::SharedPtr, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:405:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  405 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                          [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:433:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  433 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                          [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:443:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  443 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                          [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid processTargetPlants(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:525:34:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  525 |             RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                                  [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:552:38:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  552 |                 RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:577:34:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  577 |             RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                                  [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid processCircumference(geometry_msgs::msg::Point&, const Circumference&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:645:30:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  645 |         RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                              [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:673:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  673 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                          [01;35m[K^~[m[K
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:[m[K In function ‘[01m[Kvoid scanUncoveredPoints(std::vector<ScanPoint>&, geometry_msgs::msg::Point&, moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/move_cr5_node.cpp:904:26:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  904 |     RCLCPP_INFO(logger_, [01;35m[K""[m[K);
+      |                          [01;35m[K^~[m[K

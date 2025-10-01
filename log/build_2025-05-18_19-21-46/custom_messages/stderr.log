@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:26 (install):
-  install DIRECTORY does not allow "FILES_MATCHING" after PATTERN or REGEX.
-
-[0m
-gmake: *** [Makefile:1827: cmake_check_build_system] Error 1
