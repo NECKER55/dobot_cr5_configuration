@@ -41,9 +41,9 @@ bool MovementController::attemptToReachPoint(ScanPoint& scan_point,
             
             // Mark this point as covered
             scan_point.covered = true;
-            
-            RCLCPP_INFO(node->get_logger(), "[SCANNING] >> Waiting for scanning (9 seconds)...");
-            rclcpp::sleep_for(9000ms); // Allow time for scanning
+
+            RCLCPP_INFO(node->get_logger(), "[SCANNING] >> Waiting for scanning (11 seconds)...");
+            rclcpp::sleep_for(11000ms); // Allow time for scanning
             return true;
         } else {
             RCLCPP_ERROR(node->get_logger(), "[MOVEMENT] >> ✗ Execution ERROR - code: %d", 
