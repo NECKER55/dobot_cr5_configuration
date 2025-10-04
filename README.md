@@ -12,7 +12,7 @@ This workspace is structured to separate the main project logic from its externa
 
 ### Key Components
 
-* **`cr5_moveit_cpp_planner`**: The core MoveIt! node responsible for orchestrating the robot's movements. It communicates with the planning scene and executes planned trajectories.
+* **`move_cr5_node`**: The core MoveIt! node responsible for orchestrating the robot's movements. It communicates with the planning scene and executes planned trajectories.
 * **`fake_zed`**: A simulation node that publishes a `Map` message, defining the workspace boundaries and the location of various objects, including obstacles and a specific target plant to be scanned.
 * **`reworked_map`**: A node that subscribes to the `Map` topic. It processes the map by calculating potential camera positions (circumferences) around the target plant. Each position is assigned an "optimality" score based on two criteria:
     1.  The point's position relative to the defined workspace boundaries.
