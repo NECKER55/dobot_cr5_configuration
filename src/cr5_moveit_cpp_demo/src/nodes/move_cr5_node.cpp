@@ -744,9 +744,9 @@ bool attemptToReachPoint(ScanPoint& scan_point,
             // Mark this point and nearby points as covered based on camera FOV
             int covered_count = markPointsAsCovered(scan_point, all_points);
             RCLCPP_INFO(logger_, "[COVERAGE] >> ✓ Marked %d points as covered by camera FOV", covered_count);
-            
-            RCLCPP_INFO(logger_, "[SCANNING] >> Waiting for scanning (3 seconds)...");
-            rclcpp::sleep_for(3000ms); // Allow time for scanning
+
+            RCLCPP_INFO(logger_, "[SCANNING] >> Waiting for scanning (11 seconds)...");
+            rclcpp::sleep_for(11000ms); // Allow time for scanning
             return true;
         }
         else
@@ -800,6 +800,13 @@ geometry_msgs::msg::Pose createPosePointingToCenter(
     
     tf2::Quaternion q;
     rotation.getRotation(q);
+    
+    // Add 180° rotation around end effector Z-axis
+    tf2::Quaternion z_rotation;
+    z_rotation.setRPY(0, 0, M_PI); // 180 degrees in radians around Z
+    
+    // Combine rotations: first pointing to center, then 180° around Z
+    q = q * z_rotation;
     
     pose.orientation.x = q.x();
     pose.orientation.y = q.y();

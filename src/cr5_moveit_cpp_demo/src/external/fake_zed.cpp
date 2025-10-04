@@ -36,7 +36,7 @@ void create_map(){
     custom_messages::msg::Point ws_low_left;
     custom_messages::msg::Point ws_top_right;
 
-    ws_low_left.x = -1;
+    ws_low_left.x = -1;  // Quadrato 180cm x 180cm centrato sul robot
     ws_low_left.y = -1;
     ws_low_left.z = -1;
 
@@ -55,14 +55,16 @@ void create_map(){
     custom_messages::msg::Point p1_low_left;
     custom_messages::msg::Point p1_top_right;
 
-    // Prima pianta centrata a destra della scena e poggiata per terra
-    p1_low_left.x = 0.4;    // Spostata a destra (era -0.1)
-    p1_low_left.y = -0.15;  // Centrata in Y (era -0.4)
+    // Prima pianta: davanti al robot, spostata a sinistra di 15cm
+    // Centro rettangolo frontale Y = 0.45, pianta centrata a X = -0.15
+    // Dimensioni: 10x10x10 cm = 0.1x0.1x0.1 m
+    p1_low_left.x = -0.30;  // Centro X -0.15 - metà larghezza 0.05
+    p1_low_left.y = 0.40;   // Centro Y fisso a 0.45 - metà profondità 0.05
     p1_low_left.z = 0.0;    // Poggia per terra
 
-    p1_top_right.x = 0.7;   // Spostata a destra (era 0.2)
-    p1_top_right.y = 0.15;  // Centrata in Y (era -0.3)
-    p1_top_right.z = 0.2;   // Altezza rimane 0.2
+    p1_top_right.x = -0.10; // Centro X -0.15 + metà larghezza 0.05
+    p1_top_right.y = 0.50;  // Centro Y fisso a 0.45 + metà profondità 0.05
+    p1_top_right.z = 0.30;   // Altezza 30cm
 
     custom_messages::msg::BoundingBox shape1;
 
@@ -80,13 +82,15 @@ void create_map(){
     custom_messages::msg::Point p2_low_left;
     custom_messages::msg::Point p2_top_right;
 
-    p2_low_left.x = 0.4;
-    p2_low_left.y = 0.4;
-    p2_low_left.z = 0;
+    // Seconda pianta: davanti al robot, spostata a destra di 15cm
+    // Centro rettangolo frontale Y = 0.45, pianta centrata a X = +0.15
+    p2_low_left.x = 0.05;   // Centro X +0.15 - metà larghezza 0.05
+    p2_low_left.y = 0.40;   // Centro Y fisso a 0.45 - metà profondità 0.05
+    p2_low_left.z = 0.0;    // Poggia per terra
 
-    p2_top_right.x = 0.6;
-    p2_top_right.y = 0.6;
-    p2_top_right.z = 0.4;
+    p2_top_right.x = 0.15;  // Centro X +0.15 + metà larghezza 0.05
+    p2_top_right.y = 0.65;  // Centro Y fisso a 0.45 + metà profondità 0.05
+    p2_top_right.z = 0.30;   // Altezza 30cm
 
     custom_messages::msg::BoundingBox shape2;
 
@@ -119,7 +123,7 @@ void create_map(){
     obstacle1.target = false;
     obstacle1.shape = shape3;
 
-    map.objects.push_back(obstacle1);
+    //map.objects.push_back(obstacle1);
     
 }
 

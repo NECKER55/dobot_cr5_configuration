@@ -269,18 +269,18 @@
 
   <link name="zed">
     <visual>
-      <origin xyz="0 -0.02 0.03" rpy="0 0 0"/>
+      <origin xyz="0 +0.02 0.03" rpy="0 0 0"/>
       <geometry>
-        <box size="0.12 0.12 0.05"/> <!-- Larghezza, altezza, profondità 0.2 0.12 0.0 -->
+        <box size="0.18 0.18 0.05"/> <!-- Larghezza, altezza, profondità 0.2 0.12 0.0 -->
       </geometry>
       <material name="gray">
         <color rgba="0.6 0.6 0.6 1.0"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -0.02 0.03" rpy="0 0 0"/> <!-- rpy = rotazione roll, pitch raw in radianti -->
+      <origin xyz="0 +0.02 0.03" rpy="0 0 0"/> <!-- rpy = rotazione roll, pitch raw in radianti -->
       <geometry>
-        <box size="0.12 0.10 0.05"/>
+        <box size="0.18 0.18 0.05"/>
       </geometry>
     </collision>
     <inertial>
