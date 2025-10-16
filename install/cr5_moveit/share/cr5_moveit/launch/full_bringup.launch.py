@@ -82,6 +82,12 @@ joint_states_bridge_node = Node(
     output='screen'
 )
 
+reworked_map_node = Node(
+    package='cr5_moveit_cpp_demo',
+    executable='reworked_map_node',
+    name='reworked_map',
+    output='screen',
+)
 
 
 
@@ -110,6 +116,7 @@ def generate_launch_description():
             #joint_states_bridge_node,
             translater_node,
             listener_node,
+            reworked_map_node,
             rviz_node,
         ]
     )

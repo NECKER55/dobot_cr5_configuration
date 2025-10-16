@@ -64,7 +64,7 @@ void create_map(){
 
     p1_top_right.x = -0.10; // Centro X -0.15 + metà larghezza 0.05
     p1_top_right.y = 0.50;  // Centro Y fisso a 0.45 + metà profondità 0.05
-    p1_top_right.z = 0.30;   // Altezza 30cm
+    p1_top_right.z = 0.20;   // Altezza 30cm
 
     custom_messages::msg::BoundingBox shape1;
 
@@ -90,7 +90,7 @@ void create_map(){
 
     p2_top_right.x = 0.15;  // Centro X +0.15 + metà larghezza 0.05
     p2_top_right.y = 0.65;  // Centro Y fisso a 0.45 + metà profondità 0.05
-    p2_top_right.z = 0.30;   // Altezza 30cm
+    p2_top_right.z = 0.20;   // Altezza 30cm
 
     custom_messages::msg::BoundingBox shape2;
 

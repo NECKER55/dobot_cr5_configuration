@@ -196,19 +196,32 @@ start_moveit_system() {
         return 0
     fi
     
+    # Check if reworked_map_node is already running
+    if pgrep -f "reworked_map_node" &>/dev/null; then
+        log_warning "reworked_map_node appears to be already running"
+        return 0
+    fi
+    
     # Start MoveIt system in background
     log_info "Launching MoveIt planning system..."
     ros2 launch cr5_moveit full_bringup.launch.py &
     MOVEIT_PID=$!
-    
+
+    # Start reworked_map_node in background
+    log_info "Launching reworked_map_node..."
+    ros2 run cr5_moveit_cpp_demo reworked_map_node &
+    REWORKED_MAP_PID=$!
+
     # Wait for MoveIt to initialize
-    log_info "Waiting for MoveIt to initialize (45 seconds)..."
-    sleep 45
-    
+    log_info "Waiting for MoveIt to initialize (30 seconds)..."
+    sleep 30
+
     # Check if process is still running
     if kill -0 $MOVEIT_PID 2>/dev/null; then
         log_success "MoveIt system started successfully (PID: $MOVEIT_PID)"
         echo $MOVEIT_PID > /tmp/dobot_moveit.pid
+        log_success "reworked_map_node started successfully (PID: $REWORKED_MAP_PID)"
+        echo $REWORKED_MAP_PID > /tmp/dobot_reworked_map.pid
         return 0
     else
         log_error "MoveIt system failed to start or crashed"

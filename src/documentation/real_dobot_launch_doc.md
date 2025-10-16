@@ -227,23 +227,27 @@ The script provides comprehensive troubleshooting guidance:
        log_warning "MoveIt system appears to be already running"
        return 0
    fi
+
+   if pgrep -f "reworked_map_node" &>/dev/null; then
+        log_warning "reworked_map_node appears to be already running"
+        return 0
+    fi
    ```
 
 2. **System Launch:**
    ```bash
    ros2 launch cr5_moveit full_bringup.launch.py &
    MOVEIT_PID=$!
+
+   ros2 run cr5_moveit_cpp_demo reworked_map_node &
+   REWORKED_MAP_PID=$!
    ```
 
 3. **Extended Initialization:**
    ```bash
-   sleep 45  # MoveIt requires longer initialization time
+   sleep 30  # MoveIt requires longer initialization time
    ```
 
-**Initialization Timeline:**
-- **0-15s**: Parameter loading and node initialization
-- **15-30s**: Planning scene setup and URDF parsing
-- **30-45s**: Planning pipeline configuration and ready state
 
 #### Step 6: System Readiness Verification
 
@@ -454,7 +458,7 @@ cd ~/dobot_v3/src/cr5_moveit_cpp_demo
    [SUCCESS] Robot drivers started successfully
    
    [INFO] Starting MoveIt and full robot system...
-   [INFO] Waiting for MoveIt to initialize (45 seconds)...
+   [INFO] Waiting for MoveIt to initialize (30 seconds)...
    [SUCCESS] MoveIt system started successfully
    ```
 
@@ -509,6 +513,9 @@ For debugging or learning purposes, you can manually execute individual steps:
    ```
 
 ### System Shutdown and Cleanup
+
+> [!CAUTION]
+> **ATTENTION:** Use this process **ONLY** if the drivers were activated manually.
 
 #### Automated Cleanup
 ```bash
