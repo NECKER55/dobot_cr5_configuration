@@ -5549,9 +5549,6 @@ CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.o
  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp
  /home/andrea/dobot_v3/install/custom_messages/include/custom_messages/custom_messages/msg/map.hpp
  /home/andrea/dobot_v3/install/custom_messages/include/custom_messages/custom_messages/msg/detail/map__struct.hpp
  /home/andrea/dobot_v3/install/custom_messages/include/custom_messages/custom_messages/msg/detail/bounding_box__struct.hpp

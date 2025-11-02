@@ -45,11 +45,8 @@ int main(int argc, char **argv) {
     RCLCPP_INFO(node->get_logger(), "[PHASE 3] Initializing system components...");
     auto plant_processor = std::make_shared<cr5_demo::PlantProcessor>(node);
     auto scene_manager = std::make_shared<cr5_demo::SceneManager>(node);
-    
-    // Setup basic floor obstacle for safety
-    scene_manager->setupFloorObstacle(move_group, planning_scene_interface);
     RCLCPP_INFO(node->get_logger(), "[PHASE 3] ✓ System components initialized");
-    
+
     // QoS configuration for subscriber (latching)
     RCLCPP_INFO(node->get_logger(), "[PHASE 4] Configuring map subscriber...");
     rclcpp::QoS sub_qos(rclcpp::KeepLast(1));

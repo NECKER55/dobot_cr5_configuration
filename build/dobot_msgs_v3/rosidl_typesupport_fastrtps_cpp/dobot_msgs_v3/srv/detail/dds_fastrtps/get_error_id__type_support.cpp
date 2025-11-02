@@ -47,7 +47,7 @@ cdr_deserialize(
   cdr >> ros_message.structure_needs_at_least_one_member;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_dobot_msgs_v3
@@ -264,7 +264,7 @@ cdr_deserialize(
   cdr >> ros_message.error_id;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_dobot_msgs_v3

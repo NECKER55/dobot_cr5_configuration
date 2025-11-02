@@ -4,6 +4,9 @@
 
 namespace cr5_demo {
 
+// Constants
+const double CAMERA_FOV_HORIZONTAL = 0.30; // Camera FOV radius in meters
+
 // Logger for standalone functions that match original code
 static rclcpp::Logger logger_ = rclcpp::get_logger("cr5_plant_scanner");
 
@@ -239,6 +242,8 @@ geometry_msgs::msg::Pose PlantScanner::createPosePointingToCenter(
     return pose;
 }
 
+
+//useless for now but who knows. it might be useful in the future
 double PlantScanner::calculateDistance(const custom_messages::msg::OptimalPoint& p1, 
                                      const custom_messages::msg::OptimalPoint& p2) {
     double dx = p1.x - p2.x;

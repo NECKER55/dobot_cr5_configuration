@@ -1,0 +1,275 @@
+\documentclass[12pt,a4paper,twoside,openright]{book}
+
+% Package imports
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{setspace}
+
+% Page setup
+\geometry{
+	top=3cm,
+	bottom=3cm,
+	left=3.5cm,
+	right=2.5cm,
+	bindingoffset=0.5cm
+}
+
+% Header configuration
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+
+% Title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+% TOC formatting
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\normalfont}
+
+% Line spacing
+\onehalfspacing
+
+\begin{document}
+	
+	% Title page
+	\begin{titlepage}
+		\centering
+		\vspace*{1cm}
+		
+		{\large UNIVERSITÀ STATALE DI MILANO}\\[0.5cm]
+		{\large Dipartimento di Informatica "Giovanni Degli Antoni"}\\[0.5cm]
+		{\large Corso di Laurea Triennale in Informatica}\\[3cm]
+		
+		{\Huge\bfseries Sistema di Controllo Avanzato per Robot Dobot CR5:\\[0.5cm]
+			Architettura Modulare per Scansione Automatizzata\\[0.5cm]
+			con ROS2 e MoveIt2}\\[4cm]
+		
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushleft}
+				\large
+				\textbf{Relatore:}\\
+				Prof.ssa [Nome Relatrice]\\[1cm]
+				\textbf{Correlatore:}\\
+				Ing. [Nome Correlatore]
+			\end{flushleft}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright}
+				\large
+				\textbf{Candidato:}\\
+				Andrea [Cognome]\\
+				Matricola: [Numero]
+			\end{flushright}
+		\end{minipage}
+		
+		\vfill
+		
+		{\large Anno Accademico 2024-2025}
+		
+	\end{titlepage}
+	
+	% Table of Contents
+	\tableofcontents
+	\cleardoublepage
+	
+	% Main content structure with detailed index
+	
+	\chapter{Introduzione}
+	\section{Definizione del Problema}
+	\subsection{Limitazioni dei sistemi software standard per robot Dobot}
+	\subsection{Necessità di implementazione di un robot autonomo operante in sicurezza}
+	
+	\section{Obiettivi della Tesi}
+	\subsection{Sviluppo dell'infrastruttura base per il controllo del Dobot CR5}
+	\subsection{Implementazione di un sistema di comunicazione tra ZED e Dobot}
+	\subsection{Progettazione e implementazione di algoritmi per la scansione automatizzata delle piante}
+	
+	\section{Struttura della Tesi}
+	
+	\chapter{Stato dell'Arte e Tecnologie}
+	\section{Robotics Operating System 2 (ROS2)}
+	\subsection{Architettura distribuita e Data Distribution Service (DDS)}
+	\subsection{Evoluzione da ROS a ROS2: sicurezza e real-time}
+	\subsection{Paradigmi di comunicazione: topics, services e actions}
+	\subsection{Gestione del ciclo di vita dei nodi (Lifecycle Management)}
+	
+	\section{MoveIt2: Framework di Motion Planning}
+	\subsection{Architettura del sistema di pianificazione}
+	\subsection{Algoritmi di path planning: RRTConnect, EST, PRM}
+	\subsection{Collision detection e scene management}
+	\subsection{Integrazione con robot hardware tramite control interfaces}
+	
+	\section{Robot Dobot CR5: Specifiche e Limitazioni}
+	\subsection{Caratteristiche hardware: 6 DOF, precisione e workspace}
+	\subsection{Protocollo TCP/IP nativo e interfacce disponibili}
+	\subsection{Analisi del repository ufficiale DOBOT\_6Axis\_ROS2\_V3}
+	\subsection{Identificazione delle lacune funzionali}
+	
+	\section{Metodologie di Sviluppo Software per Robotica}
+	\subsection{Design patterns per sistemi robotici distribuiti}
+	\subsection{Architetture modulari e separation of concerns}
+	\subsection{Testing e validazione in ambienti simulati}
+	
+	\chapter{Progettazione del Sistema di Pianificazione e Movimento}
+	\section{Analisi del Sistema Base Dobot}
+	\subsection{Reverse engineering del repository GitHub ufficiale}
+	\subsection{Mappatura delle funzionalità mancanti}
+	\subsection{Descrizione delle modifiche necessarie al codice esistente: aggiunta del settimo joint per la rappresentazione della camera e modifica del canale di pubblicazione delle trasformate dei joint per l'integrazione con MoveIt}
+	
+	\section{Requisiti Funzionali del Sistema Esteso}
+	\subsection{Raggiungimento di qualsiasi punto fisicamente accessibile nel workspace}
+	\subsection{Gestione dinamica di scene complesse con ostacoli}
+	\subsection{Implementazione di un sistema di avvio automatizzato}
+	
+	\section{Requisiti Non Funzionali (METTERE?)}
+	
+	
+	\chapter{Implementazione dell'Architettura Modulare}
+	\section{Architettura del Sistema Proposto}
+	\subsection{Modulo di attivazione dei driver del Dobot}
+	\subsection{Modulo di lancio dei componenti necessari per l'interazione con MoveIt}
+	\subsection{Progettazione modulare con schema architetturale (grafico)}
+	
+	\section{Package \texttt{dobot\_bringup\_v3}, File \texttt{dobot\_bringup\_ros2.launch.py}: Sistema Core}
+	\subsection{Descrizione del funzionamento e integrazione con l'infrastruttura ROS2}
+	
+	\section{Package \texttt{dobot\_bringup\_v3}, File \texttt{translater.py}}
+	\subsection{Analisi del funzionamento e ruolo nell'architettura di controllo}
+	
+	
+	
+	\chapter{Progettazione del Sistema di Scansione delle Piante}
+	\section{Analisi dei Dati Estraibili dalla ZED}
+	\subsection{Tipologie di dati acquisibili dal sensore}
+	\subsection{Metodologie per la trasmissione dei dati}
+	
+	\section{Requisiti Funzionali del Sistema}
+	\subsection{Comunicazione bidirezionale con la ZED}
+	\subsection{Capacità di elaborazione simultanea di multiple piante}
+	\subsection{Ottimizzazione degli algoritmi di scansione}
+	
+	\section{Requisiti Non Funzionali}
+	\subsection{Modularità e riusabilità del codice}
+	
+	\chapter{Implementazione della Struttura di Scansione}
+	\section{Architettura del Sistema Proposto}
+	\subsection{Canale di comunicazione con la ZED}
+	\subsection{Elaborazione della mappa ricevuta dalla ZED}
+	\subsection{Processo di scansione utilizzando la mappa rielaborata}
+	\subsection{Progettazione modulare con schema architetturale (grafico)}
+	
+	\section{Package \texttt{dobot\_bringup\_v3}, File \texttt{zed\_listener.py}}
+	\subsection{Analisi del funzionamento}
+	\subsection{Struttura dei messaggi condivisi: acquisizione dalla ZED e ricezione da parte del Dobot}
+	
+	\section{Package \texttt{dobot\_bringup\_v3}, File \texttt{reworked\_map\_node.py}}
+	\subsection{Sottoscrizione al topic Boing per la ricezione della mappa inviata dalla ZED}
+	\subsection{Generazione di circonferenze multiple basate sull'altezza della pianta}
+	\subsection{Elaborazione dei punti di ogni circonferenza per l'esclusione di punti irraggiungibili}
+	\subsection{Modifica del messaggio ZED e pubblicazione sul topic reworked\_map}
+	
+	\section{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{move\_cr5\_node\_modular.cpp}}
+	\subsection{Responsabilità della classe: coordinamento con PlantProcessor per l'avvio della scansione}
+	\subsection{Sottoscrizione al topic reworked\_map per la ricezione della mappa rielaborata}
+	\subsection{Inizializzazione dei parametri di sistema}
+	
+	\section{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{plant\_processor.cpp}}
+	\subsection{Responsabilità della classe e interfacciamento con i moduli SceneManager e PlantScanner}
+	\subsection{Ricezione della mappa e invocazione del SceneManager per l'aggiunta di ostacoli e piante}
+	\subsection{Elaborazione sequenziale di ogni pianta}
+	\subsection{Elaborazione sequenziale di ogni circonferenza tramite invocazione del PlantScanner}
+	
+	\section{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{scene\_manager.cpp}}
+	\subsection{Responsabilità della classe e interfacciamento con Planning Interface di MoveIt per l'aggiunta di ostacoli}
+	\subsection{Gestione dell'ambiente: aggiunta di pavimento, piante e ostacoli}
+	
+	\section{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{plant\_scanner.cpp}}
+	\subsection{Responsabilità della classe e interfacciamento con il modulo MovementController}
+	\subsection{Identificazione degli algoritmi per i punti di confine}
+	\subsection{Tentativo di raggiungimento dei punti di confine tramite invocazione del MovementController}
+	\subsection{Gestione della copertura: esclusione dei punti vicini basata sul campo visivo della camera}
+	
+	\section{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{movement\_controller.cpp}}
+	\subsection{Responsabilità della classe e interfacciamento con Planning Interface e MoveGroup di MoveIt per l'attuazione del movimento}
+	\subsection{Gestione dei casi di successo e fallimento nell'esecuzione dei movimenti}
+	
+	
+	\chapter{Sistema di Gestione e Lancio dei Moduli}
+	
+	\section{Configurazione per Dobot Reale}
+	\subsection{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{./dobot\_startup.sh}}
+	\subsubsection{Funzionalità e moduli di sistema avviati}
+	
+	\subsection{Package \texttt{cr5\_moveit}, File \texttt{full\_bringup.launch.py}}
+	\subsubsection{Architettura di avvio e componenti lanciati}
+	
+	\subsection{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{./dobot\_stop.sh}}
+	\subsubsection{Procedura di arresto sicuro del sistema}
+	
+	\section{Configurazione per Dobot Simulato}
+	\subsection{Package \texttt{dobot\_moveit}, File \texttt{dobot\_moveit.launch.py}}
+	\subsubsection{Architettura di simulazione e componenti del sistema virtuale}
+	
+	\subsection{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{scripts\_launch.launch.py}}
+	\subsubsection{Coordinamento dei moduli in ambiente simulato}
+	
+	\subsection{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{fake\_zed.cpp}}
+	\subsubsection{Implementazione del simulatore ZED per test di sistema}
+	
+	\subsection{Package \texttt{cr5\_moveit\_cpp\_demo}, File \texttt{move\_cr5\_node\_modular.cpp}}
+	\subsubsection{Modalità di esecuzione in ambiente reale tramite script di avvio}
+	
+	
+	\chapter{Attività di Testing e Validazione del Sistema}
+	\section{Testing in Ambiente Simulato}
+	\subsection{Obiettivi della validazione in simulazione}
+	\subsubsection{Test con configurazioni multiple di piante}
+	\subsection{Risultati e osservazioni critiche}
+	\subsubsection{Analisi delle difficoltà nella scansione completa delle piante}
+	
+	\section{Testing con Sistema Dobot Reale}
+	\subsection{Obiettivi della validazione in ambiente reale}
+	\subsubsection{Verifica della corrispondenza tra simulazione e realtà operativa}
+	\subsection{Risultati e confronto prestazionale}
+	\subsubsection{Comportamento sostanzialmente identico con eccezioni marginali}
+	\subsubsection{Analisi dei casi di fallimento nella raggiungibilità dei punti}
+	
+	
+	\chapter{Conclusioni e Sviluppi Futuri}
+	\section{Sintesi dei Risultati}
+	\subsection{Valutazione complessiva dei risultati ottenuti}
+	\subsubsection{Soddisfacimento degli obiettivi prefissati}
+	\subsubsection{Identificazione di problematiche risolvibili mediante applicazioni alternative}
+	
+	\section{Prospettive di Sviluppo Futuro}
+	\subsection{Integrazione con sistemi robotici mobili}
+	\subsubsection{Implementazione di capacità di spostamento autonomo del sistema}
+	\subsection{Progettazione orientata all'adattabilità}
+	\subsubsection{Architettura modulare per facile adattamento a nuove configurazioni spaziali}
+	\subsection{Estensibilità applicativa}
+	\subsubsection{Adattabilità del sistema a diverse tipologie di applicazioni robotiche industriali}
+	
+
+	% Bibliografia
+	\chapter*{Bibliografia}
+	\addcontentsline{toc}{chapter}{Bibliografia}
+	
+	% Indice delle figure
+	\listoffigures
+	
+	% Indice delle tabelle
+	\listoftables
+	
+\end{document}

@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target reworked_map_node[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target matlab_slave_node[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target move_cr5_node[0m
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target reconnaissance_node[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target move_cr5_node_modular[0m
+[0.109s] [ 12%] Built target fake_zed_node
+[0.116s] [ 25%] Built target reworked_map_node
+[0.128s] [ 37%] Built target matlab_slave_node
+[0.130s] [ 50%] Built target move_cr5_node
+[0.133s] [ 62%] Built target reconnaissance_node
+[0.153s] [ 75%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.o[0m
+[0.153s] [ 75%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/plant_processor.cpp.o[0m
+[0.154s] [ 81%] [32mBuilding CXX object CMakeFiles/move_cr5_node_modular.dir/src/modules/scene_manager.cpp.o[0m
+[6.667s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node_modular.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.667s] [01m[K/home/andrea/dobot_v3/src/cr5_moveit_cpp_demo/src/nodes/move_cr5_node_modular.cpp:50:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class cr5_demo::SceneManager[m[K’ {aka ‘[01m[Kclass cr5_demo::SceneManager[m[K’} has no member named ‘[01m[KsetupFloorObstacle[m[K’
+[6.667s]    50 |     scene_manager->[01;31m[KsetupFloorObstacle[m[K(move_group, planning_scene_interface);
+[6.667s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[10.554s] gmake[2]: *** [CMakeFiles/move_cr5_node_modular.dir/build.make:76: CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.o] Error 1
+[10.555s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/move_cr5_node_modular.dir/all] Error 2
+[10.555s] gmake: *** [Makefile:146: all] Error 2
+[10.560s] Invoked command in '/home/andrea/dobot_v3/build/cr5_moveit_cpp_demo' returned '2': CMAKE_PREFIX_PATH=/home/andrea/dobot_v3/install/custom_messages:/home/andrea/dobot_v3/install/nova5_moveit:/home/andrea/dobot_v3/install/nova2_moveit:/home/andrea/dobot_v3/install/cr7_moveit:/home/andrea/dobot_v3/install/cr5_moveit:/home/andrea/dobot_v3/install/cr3_moveit:/home/andrea/dobot_v3/install/cr16_moveit:/home/andrea/dobot_v3/install/cr12_moveit:/home/andrea/dobot_v3/install/cr10_moveit:/home/andrea/dobot_v3/install/dobot_rviz:/home/andrea/dobot_v3/install/dobot_msgs_v3:/home/andrea/dobot_v3/install/dobot_gazebo:/home/andrea/dobot_v3/install/cr5_moveit_cpp_demo:/home/andrea/dobot_v3/install/cra_description:/home/andrea/dobot_v3/install/servo_action:/home/andrea/dobot_v3/install/dobot_bringup_v3:/home/andrea/dobot_v3/install/dobot_moveit:/home/andrea/dobot_v3/install/dobot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/andrea/dobot_v3/install/custom_messages/lib:/home/andrea/dobot_v3/install/dobot_msgs_v3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/andrea/dobot_v3/build/cr5_moveit_cpp_demo -- -j12 -l12

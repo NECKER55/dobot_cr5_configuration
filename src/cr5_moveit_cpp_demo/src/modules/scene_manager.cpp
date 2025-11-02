@@ -1,7 +1,5 @@
 #include "modules/scene_manager.hpp"
 #include <chrono>
-#include <cmath>
-#include <iostream>
 
 using namespace std::chrono_literals;
 
@@ -16,7 +14,7 @@ void SceneManager::addObstaclesToScene(moveit::planning_interface::MoveGroupInte
     RCLCPP_INFO(node_->get_logger(), "[OBSTACLES] Adding obstacles to planning scene...");
     std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
     
-    // Add workspace boundaries as collision object
+    // Add workspace boundaries as collision object, for now is not used, it could be usefull in the future
     RCLCPP_INFO(node_->get_logger(), "[OBSTACLES] > Creating workspace floor...");
     moveit_msgs::msg::CollisionObject workspace;
     workspace.header.frame_id = move_group.getPlanningFrame();
@@ -76,94 +74,6 @@ void SceneManager::addObstaclesToScene(moveit::planning_interface::MoveGroupInte
     planning_scene_interface.applyCollisionObjects(collision_objects);
     rclcpp::sleep_for(1s);
     RCLCPP_INFO(node_->get_logger(), "[OBSTACLES] ✓ Added %zu collision objects to scene", collision_objects.size());
-}
-
-void SceneManager::setupFloorObstacle(moveit::planning_interface::MoveGroupInterface& move_group,
-                                     moveit::planning_interface::PlanningSceneInterface& planning_scene_interface) {
-    // Setup basic floor obstacle for safety testing
-    moveit_msgs::msg::CollisionObject obstacle;
-    obstacle.header.frame_id = move_group.getPlanningFrame();
-    obstacle.id = "floor";
-
-    shape_msgs::msg::SolidPrimitive primitive;
-    primitive.type = primitive.BOX;
-    primitive.dimensions = {2, 2, 0.5};
-
-    geometry_msgs::msg::Point obstacle_center = calculateObstacleCenter({-1,1}, {-1,1}, {0, -0.5});
-    geometry_msgs::msg::Pose box_pose;
-    box_pose.position.x = obstacle_center.x;
-    box_pose.position.y = obstacle_center.y;
-    box_pose.position.z = obstacle_center.z;
-    box_pose.orientation.w = 1.0;
-
-    obstacle.primitives.push_back(primitive);
-    obstacle.primitive_poses.push_back(box_pose);
-    obstacle.operation = obstacle.ADD;
-
-    planning_scene_interface.applyCollisionObjects({obstacle});
-    rclcpp::sleep_for(1s);
-}
-
-std::array<float, 3> SceneManager::calculateDimPlant(std::array<float, 2> high_pos_x,
-                                                     std::array<float, 2> high_pos_y,
-                                                     std::array<float, 2> high_pos_z) {
-    float length = abs(high_pos_x[0] - high_pos_x[1]); // x
-    float depth = abs(high_pos_y[0] - high_pos_y[1]); // y
-    float height = abs(high_pos_z[0] - high_pos_z[1]); // z
-    
-    // Calculate diagonal (used elsewhere in original code)
-    double diagonal = std::sqrt(std::pow(length, 2) + std::pow(depth, 2) + std::pow(height, 2))/2;
-    std::cout << diagonal << std::endl;
-
-    std::array<float, 3> dim = {length, depth, height};
-    return dim;
-}
-
-geometry_msgs::msg::Point SceneManager::calculateObstacleCenter(std::array<float, 2> high_pos_x,
-                                                               std::array<float, 2> high_pos_y,
-                                                               std::array<float, 2> high_pos_z) {
-    geometry_msgs::msg::Point center;
-    
-    center.x = high_pos_x[0] + (high_pos_x[1] - high_pos_x[0])/2;
-    center.y = high_pos_y[0] + (high_pos_y[1] - high_pos_y[0])/2;
-    center.z = high_pos_z[0] + (high_pos_z[1] - high_pos_z[0])/2;
-
-    return center;
-}
-
-PlantWithCenter SceneManager::addObstacle(std::string name,
-                                         std::array<float, 3> dim,
-                                         geometry_msgs::msg::Point center,
-                                         moveit::planning_interface::PlanningSceneInterface& planning_scene_interface,
-                                         moveit::planning_interface::MoveGroupInterface& move_group) {
-    // Create collision object
-    moveit_msgs::msg::CollisionObject obstacle;
-    obstacle.header.frame_id = move_group.getPlanningFrame();
-    obstacle.id = name;
-
-    shape_msgs::msg::SolidPrimitive primitive;
-    primitive.type = primitive.BOX;
-    primitive.dimensions = {dim[0], dim[1], dim[2]};
-
-    geometry_msgs::msg::Pose box_pose;
-    box_pose.position.x = center.x;
-    box_pose.position.y = center.y;
-    box_pose.position.z = center.z;
-    box_pose.orientation.w = 1.0;
-
-    obstacle.primitives.push_back(primitive);
-    obstacle.primitive_poses.push_back(box_pose);
-    obstacle.operation = obstacle.ADD;
-
-    planning_scene_interface.applyCollisionObjects({obstacle});
-    rclcpp::sleep_for(1s);
-
-    // Create and return PlantWithCenter
-    PlantWithCenter plant;
-    plant.plant_shape = obstacle;
-    plant.center = center;
-    
-    return plant;
 }
 
 } // namespace cr5_demo

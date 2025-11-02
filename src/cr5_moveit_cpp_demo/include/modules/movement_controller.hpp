@@ -36,33 +36,6 @@ public:
 
 private:
     std::shared_ptr<rclcpp::Node> node_;
-    
-    /**
-     * @brief Plans movement to a target pose
-     * @param target_pose The pose to reach
-     * @param move_group MoveIt interface
-     * @return true if planning was successful
-     */
-    bool planMovement(const geometry_msgs::msg::Pose& target_pose,
-                     moveit::planning_interface::MoveGroupInterface& move_group);
-    
-    /**
-     * @brief Executes a planned movement
-     * @param move_group MoveIt interface
-     * @return true if execution was successful
-     */
-    bool executeMovement(moveit::planning_interface::MoveGroupInterface& move_group);
-    
-    /**
-     * @brief Marks points as covered by camera FOV around current position
-     * @param scan_points Vector of all scan points
-     * @param current_position Current robot position
-     * @param camera_fov_radius Camera field of view radius
-     * @return Number of points marked as covered
-     */
-    int markPointsAsCovered(std::vector<ScanPoint>& scan_points,
-                           const geometry_msgs::msg::Point& current_position,
-                           double camera_fov_radius = 0.15);
 };
 
 } // namespace cr5_demo

@@ -62,7 +62,7 @@ cdr_deserialize(
   cdr >> ros_message.val_tab;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_dobot_msgs_v3
@@ -322,7 +322,7 @@ cdr_deserialize(
   cdr >> ros_message.res;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_dobot_msgs_v3
