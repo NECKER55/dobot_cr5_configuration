@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/move_cr5_node_modular.dir/src/nodes/move_cr5_node_modular.cpp.o: in function `main':
-move_cr5_node_modular.cpp:(.text+0x19ee): undefined reference to `cr5_demo::SceneManager::setupFloorObstacle(moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/move_cr5_node_modular.dir/build.make:429: move_cr5_node_modular] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/move_cr5_node_modular.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
