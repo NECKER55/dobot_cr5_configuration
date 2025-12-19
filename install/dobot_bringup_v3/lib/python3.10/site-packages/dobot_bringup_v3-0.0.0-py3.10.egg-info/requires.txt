@@ -1,2 +1,0 @@
-rosbridge-suite
-setuptools

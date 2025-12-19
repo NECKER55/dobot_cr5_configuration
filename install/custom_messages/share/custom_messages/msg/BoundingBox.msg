@@ -1,2 +1,0 @@
-Point low_left
-Point top_right

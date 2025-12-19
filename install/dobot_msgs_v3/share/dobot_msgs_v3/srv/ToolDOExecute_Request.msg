@@ -1,2 +1,0 @@
-int32 index
-int32 status

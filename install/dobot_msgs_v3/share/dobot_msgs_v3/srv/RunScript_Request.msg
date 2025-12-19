@@ -1,1 +1,0 @@
-string project_name

@@ -1,3 +1,0 @@
-string trace_name
-int32 const_val
-int32 cart
