@@ -1,3 +1,0 @@
-int32 index
-int32 addr
-int32 count
